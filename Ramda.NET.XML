@@ -537,7 +537,7 @@
             <returns>`true` if the predicate is satisfied by every element, `false` otherwise.</returns>
             <see cref="M:Ramda.NET.R.Any(System.Object,Ramda.NET.RamdaPlaceholder)"/>
             <see cref="M:Ramda.NET.R.None(System.Object,Ramda.NET.RamdaPlaceholder)"/>
-            <see cref="M:Ramda.NET.R.Transduce(System.Object,System.Object,Ramda.NET.RamdaPlaceholder,Ramda.NET.R.IReducible)"/>
+            <see cref="M:Ramda.NET.R.Transduce(System.Func{Ramda.NET.ITransformer,Ramda.NET.ITransformer},Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder)"/>
         </member>
         <member name="M:Ramda.NET.R.All``1(Ramda.NET.RamdaPlaceholder,System.Collections.Generic.IList{``0})">
             <summary>
@@ -550,7 +550,7 @@
             <returns>`true` if the predicate is satisfied by every element, `false` otherwise.</returns>
             <see cref="M:Ramda.NET.R.Any(System.Object,Ramda.NET.RamdaPlaceholder)"/>
             <see cref="M:Ramda.NET.R.None(System.Object,Ramda.NET.RamdaPlaceholder)"/>
-            <see cref="M:Ramda.NET.R.Transduce(System.Object,System.Object,Ramda.NET.RamdaPlaceholder,Ramda.NET.R.IReducible)"/>
+            <see cref="M:Ramda.NET.R.Transduce(System.Func{Ramda.NET.ITransformer,Ramda.NET.ITransformer},Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder)"/>
         </member>
         <member name="M:Ramda.NET.R.All``1(System.Func{``0,System.Boolean},Ramda.NET.RamdaPlaceholder)">
             <summary>
@@ -563,7 +563,7 @@
             <returns>`true` if the predicate is satisfied by every element, `false` otherwise.</returns>
             <see cref="M:Ramda.NET.R.Any(System.Object,Ramda.NET.RamdaPlaceholder)"/>
             <see cref="M:Ramda.NET.R.None(System.Object,Ramda.NET.RamdaPlaceholder)"/>
-            <see cref="M:Ramda.NET.R.Transduce(System.Object,System.Object,Ramda.NET.RamdaPlaceholder,Ramda.NET.R.IReducible)"/>
+            <see cref="M:Ramda.NET.R.Transduce(System.Func{Ramda.NET.ITransformer,Ramda.NET.ITransformer},Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder)"/>
         </member>
         <member name="M:Ramda.NET.R.All(System.Object,Ramda.NET.RamdaPlaceholder)">
             <summary>
@@ -576,7 +576,7 @@
             <returns>`true` if the predicate is satisfied by every element, `false` otherwise.</returns>
             <see cref="M:Ramda.NET.R.Any(System.Object,Ramda.NET.RamdaPlaceholder)"/>
             <see cref="M:Ramda.NET.R.None(System.Object,Ramda.NET.RamdaPlaceholder)"/>
-            <see cref="M:Ramda.NET.R.Transduce(System.Object,System.Object,Ramda.NET.RamdaPlaceholder,Ramda.NET.R.IReducible)"/>
+            <see cref="M:Ramda.NET.R.Transduce(System.Func{Ramda.NET.ITransformer,Ramda.NET.ITransformer},Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder)"/>
         </member>
         <member name="M:Ramda.NET.R.All``1(System.Object,System.Collections.Generic.IList{``0})">
             <summary>
@@ -589,7 +589,7 @@
             <returns>`true` if the predicate is satisfied by every element, `false` otherwise.</returns>
             <see cref="M:Ramda.NET.R.Any(System.Object,Ramda.NET.RamdaPlaceholder)"/>
             <see cref="M:Ramda.NET.R.None(System.Object,Ramda.NET.RamdaPlaceholder)"/>
-            <see cref="M:Ramda.NET.R.Transduce(System.Object,System.Object,Ramda.NET.RamdaPlaceholder,Ramda.NET.R.IReducible)"/>
+            <see cref="M:Ramda.NET.R.Transduce(System.Func{Ramda.NET.ITransformer,Ramda.NET.ITransformer},Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder)"/>
         </member>
         <member name="M:Ramda.NET.R.All(Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder)">
             <summary>
@@ -602,7 +602,7 @@
             <returns>`true` if the predicate is satisfied by every element, `false` otherwise.</returns>
             <see cref="M:Ramda.NET.R.Any(System.Object,Ramda.NET.RamdaPlaceholder)"/>
             <see cref="M:Ramda.NET.R.None(System.Object,Ramda.NET.RamdaPlaceholder)"/>
-            <see cref="M:Ramda.NET.R.Transduce(System.Object,System.Object,Ramda.NET.RamdaPlaceholder,Ramda.NET.R.IReducible)"/>
+            <see cref="M:Ramda.NET.R.Transduce(System.Func{Ramda.NET.ITransformer,Ramda.NET.ITransformer},Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder)"/>
         </member>
         <member name="M:Ramda.NET.R.All``1(System.Func{``0,System.Boolean},Ramda.NET.ITransformer)">
             <summary>
@@ -615,7 +615,7 @@
             <returns>`true` if the predicate is satisfied by every element, `false` otherwise.</returns>
             <see cref="M:Ramda.NET.R.Any(System.Object,Ramda.NET.RamdaPlaceholder)"/>
             <see cref="M:Ramda.NET.R.None(System.Object,Ramda.NET.RamdaPlaceholder)"/>
-            <see cref="M:Ramda.NET.R.Transduce(System.Object,System.Object,Ramda.NET.RamdaPlaceholder,Ramda.NET.R.IReducible)"/>
+            <see cref="M:Ramda.NET.R.Transduce(System.Func{Ramda.NET.ITransformer,Ramda.NET.ITransformer},Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder)"/>
         </member>
         <member name="M:Ramda.NET.R.All(Ramda.NET.RamdaPlaceholder,Ramda.NET.ITransformer)">
             <summary>
@@ -628,7 +628,7 @@
             <returns>`true` if the predicate is satisfied by every element, `false` otherwise.</returns>
             <see cref="M:Ramda.NET.R.Any(System.Object,Ramda.NET.RamdaPlaceholder)"/>
             <see cref="M:Ramda.NET.R.None(System.Object,Ramda.NET.RamdaPlaceholder)"/>
-            <see cref="M:Ramda.NET.R.Transduce(System.Object,System.Object,Ramda.NET.RamdaPlaceholder,Ramda.NET.R.IReducible)"/>
+            <see cref="M:Ramda.NET.R.Transduce(System.Func{Ramda.NET.ITransformer,Ramda.NET.ITransformer},Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder)"/>
         </member>
         <member name="M:Ramda.NET.R.All(System.Object,Ramda.NET.ITransformer)">
             <summary>
@@ -641,7 +641,7 @@
             <returns>`true` if the predicate is satisfied by every element, `false` otherwise.</returns>
             <see cref="M:Ramda.NET.R.Any(System.Object,Ramda.NET.RamdaPlaceholder)"/>
             <see cref="M:Ramda.NET.R.None(System.Object,Ramda.NET.RamdaPlaceholder)"/>
-            <see cref="M:Ramda.NET.R.Transduce(System.Object,System.Object,Ramda.NET.RamdaPlaceholder,Ramda.NET.R.IReducible)"/>
+            <see cref="M:Ramda.NET.R.Transduce(System.Func{Ramda.NET.ITransformer,Ramda.NET.ITransformer},Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder)"/>
         </member>
         <member name="M:Ramda.NET.R.AllPass(System.Collections.Generic.IList{System.Object})">
             <summary>
@@ -746,7 +746,7 @@
             <returns>`true` if the predicate is satisfied by at least one element, `false` otherwise.</returns>
             <see cref="M:Ramda.NET.R.All(System.Object,Ramda.NET.RamdaPlaceholder)"/>
             <see cref="M:Ramda.NET.R.None(System.Object,Ramda.NET.RamdaPlaceholder)"/>
-            <see cref="M:Ramda.NET.R.Transduce(System.Object,System.Object,Ramda.NET.RamdaPlaceholder,Ramda.NET.R.IReducible)"/>
+            <see cref="M:Ramda.NET.R.Transduce(System.Func{Ramda.NET.ITransformer,Ramda.NET.ITransformer},Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder)"/>
         </member>
         <member name="M:Ramda.NET.R.Any``1(Ramda.NET.RamdaPlaceholder,System.Collections.Generic.IList{``0})">
             <summary>
@@ -759,7 +759,7 @@
             <returns>`true` if the predicate is satisfied by at least one element, `false` otherwise.</returns>
             <see cref="M:Ramda.NET.R.All(System.Object,Ramda.NET.RamdaPlaceholder)"/>
             <see cref="M:Ramda.NET.R.None(System.Object,Ramda.NET.RamdaPlaceholder)"/>
-            <see cref="M:Ramda.NET.R.Transduce(System.Object,System.Object,Ramda.NET.RamdaPlaceholder,Ramda.NET.R.IReducible)"/>
+            <see cref="M:Ramda.NET.R.Transduce(System.Func{Ramda.NET.ITransformer,Ramda.NET.ITransformer},Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder)"/>
         </member>
         <member name="M:Ramda.NET.R.Any``1(System.Func{``0,System.Boolean},Ramda.NET.RamdaPlaceholder)">
             <summary>
@@ -772,7 +772,7 @@
             <returns>`true` if the predicate is satisfied by at least one element, `false` otherwise.</returns>
             <see cref="M:Ramda.NET.R.All(System.Object,Ramda.NET.RamdaPlaceholder)"/>
             <see cref="M:Ramda.NET.R.None(System.Object,Ramda.NET.RamdaPlaceholder)"/>
-            <see cref="M:Ramda.NET.R.Transduce(System.Object,System.Object,Ramda.NET.RamdaPlaceholder,Ramda.NET.R.IReducible)"/>
+            <see cref="M:Ramda.NET.R.Transduce(System.Func{Ramda.NET.ITransformer,Ramda.NET.ITransformer},Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder)"/>
         </member>
         <member name="M:Ramda.NET.R.Any(System.Object,Ramda.NET.RamdaPlaceholder)">
             <summary>
@@ -785,7 +785,7 @@
             <returns>`true` if the predicate is satisfied by at least one element, `false` otherwise.</returns>
             <see cref="M:Ramda.NET.R.All(System.Object,Ramda.NET.RamdaPlaceholder)"/>
             <see cref="M:Ramda.NET.R.None(System.Object,Ramda.NET.RamdaPlaceholder)"/>
-            <see cref="M:Ramda.NET.R.Transduce(System.Object,System.Object,Ramda.NET.RamdaPlaceholder,Ramda.NET.R.IReducible)"/>
+            <see cref="M:Ramda.NET.R.Transduce(System.Func{Ramda.NET.ITransformer,Ramda.NET.ITransformer},Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder)"/>
         </member>
         <member name="M:Ramda.NET.R.Any``1(System.Object,System.Collections.Generic.IList{``0})">
             <summary>
@@ -798,7 +798,7 @@
             <returns>`true` if the predicate is satisfied by at least one element, `false` otherwise.</returns>
             <see cref="M:Ramda.NET.R.All(System.Object,Ramda.NET.RamdaPlaceholder)"/>
             <see cref="M:Ramda.NET.R.None(System.Object,Ramda.NET.RamdaPlaceholder)"/>
-            <see cref="M:Ramda.NET.R.Transduce(System.Object,System.Object,Ramda.NET.RamdaPlaceholder,Ramda.NET.R.IReducible)"/>
+            <see cref="M:Ramda.NET.R.Transduce(System.Func{Ramda.NET.ITransformer,Ramda.NET.ITransformer},Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder)"/>
         </member>
         <member name="M:Ramda.NET.R.Any(Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder)">
             <summary>
@@ -811,7 +811,7 @@
             <returns>`true` if the predicate is satisfied by at least one element, `false` otherwise.</returns>
             <see cref="M:Ramda.NET.R.All(System.Object,Ramda.NET.RamdaPlaceholder)"/>
             <see cref="M:Ramda.NET.R.None(System.Object,Ramda.NET.RamdaPlaceholder)"/>
-            <see cref="M:Ramda.NET.R.Transduce(System.Object,System.Object,Ramda.NET.RamdaPlaceholder,Ramda.NET.R.IReducible)"/>
+            <see cref="M:Ramda.NET.R.Transduce(System.Func{Ramda.NET.ITransformer,Ramda.NET.ITransformer},Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder)"/>
         </member>
         <member name="M:Ramda.NET.R.AnyPass(System.Collections.Generic.IList{System.Object})">
             <summary>
@@ -972,7 +972,7 @@
             <param name="n">The size of the tuples to create</param>
             <param name="list">The list to split into `n`-length tuples</param>
             <returns>The resulting list of `n`-length tuples</returns>
-            <see cref="M:Ramda.NET.R.Transduce(System.Object,System.Object,Ramda.NET.RamdaPlaceholder,Ramda.NET.R.IReducible)"/>
+            <see cref="M:Ramda.NET.R.Transduce(System.Func{Ramda.NET.ITransformer,Ramda.NET.ITransformer},Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder)"/>
         </member>
         <member name="M:Ramda.NET.R.Aperture``1(Ramda.NET.RamdaPlaceholder,System.Collections.Generic.IList{``0})">
             <summary>
@@ -983,7 +983,7 @@
             <param name="n">The size of the tuples to create</param>
             <param name="list">The list to split into `n`-length tuples</param>
             <returns>The resulting list of `n`-length tuples</returns>
-            <see cref="M:Ramda.NET.R.Transduce(System.Object,System.Object,Ramda.NET.RamdaPlaceholder,Ramda.NET.R.IReducible)"/>
+            <see cref="M:Ramda.NET.R.Transduce(System.Func{Ramda.NET.ITransformer,Ramda.NET.ITransformer},Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder)"/>
         </member>
         <member name="M:Ramda.NET.R.Aperture(System.Int32,Ramda.NET.RamdaPlaceholder)">
             <summary>
@@ -994,7 +994,7 @@
             <param name="n">The size of the tuples to create</param>
             <param name="list">The list to split into `n`-length tuples</param>
             <returns>The resulting list of `n`-length tuples</returns>
-            <see cref="M:Ramda.NET.R.Transduce(System.Object,System.Object,Ramda.NET.RamdaPlaceholder,Ramda.NET.R.IReducible)"/>
+            <see cref="M:Ramda.NET.R.Transduce(System.Func{Ramda.NET.ITransformer,Ramda.NET.ITransformer},Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder)"/>
         </member>
         <member name="M:Ramda.NET.R.Aperture(Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder)">
             <summary>
@@ -1005,7 +1005,7 @@
             <param name="n">The size of the tuples to create</param>
             <param name="list">The list to split into `n`-length tuples</param>
             <returns>The resulting list of `n`-length tuples</returns>
-            <see cref="M:Ramda.NET.R.Transduce(System.Object,System.Object,Ramda.NET.RamdaPlaceholder,Ramda.NET.R.IReducible)"/>
+            <see cref="M:Ramda.NET.R.Transduce(System.Func{Ramda.NET.ITransformer,Ramda.NET.ITransformer},Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder)"/>
         </member>
         <member name="M:Ramda.NET.R.Append``1(``0,System.Collections.Generic.IList{``0})">
             <summary>
@@ -3328,7 +3328,7 @@
             <param name="list">second</param>
             <returns>A copy of list without the first `n` elements</returns>
             <see cref="M:Ramda.NET.R.Take(System.Int32,System.String)"/>
-            <see cref="M:Ramda.NET.R.Transduce(System.Object,System.Object,Ramda.NET.RamdaPlaceholder,Ramda.NET.R.IReducible)"/>
+            <see cref="M:Ramda.NET.R.Transduce(System.Func{Ramda.NET.ITransformer,Ramda.NET.ITransformer},Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder)"/>
             <see cref="M:Ramda.NET.R.DropLast(System.Int32,Ramda.NET.RamdaPlaceholder)"/>
             <see cref="M:Ramda.NET.R.DropWhile(System.Object,Ramda.NET.RamdaPlaceholder)"/>
         </member>
@@ -3342,7 +3342,7 @@
             <param name="list">second</param>
             <returns>A copy of list without the first `n` elements</returns>
             <see cref="M:Ramda.NET.R.Take(System.Int32,System.String)"/>
-            <see cref="M:Ramda.NET.R.Transduce(System.Object,System.Object,Ramda.NET.RamdaPlaceholder,Ramda.NET.R.IReducible)"/>
+            <see cref="M:Ramda.NET.R.Transduce(System.Func{Ramda.NET.ITransformer,Ramda.NET.ITransformer},Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder)"/>
             <see cref="M:Ramda.NET.R.DropLast(System.Int32,Ramda.NET.RamdaPlaceholder)"/>
             <see cref="M:Ramda.NET.R.DropWhile(System.Object,Ramda.NET.RamdaPlaceholder)"/>
         </member>
@@ -3356,7 +3356,7 @@
             <param name="list">second</param>
             <returns>A copy of list without the first `n` elements</returns>
             <see cref="M:Ramda.NET.R.Take(System.Int32,System.String)"/>
-            <see cref="M:Ramda.NET.R.Transduce(System.Object,System.Object,Ramda.NET.RamdaPlaceholder,Ramda.NET.R.IReducible)"/>
+            <see cref="M:Ramda.NET.R.Transduce(System.Func{Ramda.NET.ITransformer,Ramda.NET.ITransformer},Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder)"/>
             <see cref="M:Ramda.NET.R.DropLast(System.Int32,Ramda.NET.RamdaPlaceholder)"/>
             <see cref="M:Ramda.NET.R.DropWhile(System.Object,Ramda.NET.RamdaPlaceholder)"/>
         </member>
@@ -3370,7 +3370,7 @@
             <param name="list">second</param>
             <returns>A copy of list without the first `n` elements</returns>
             <see cref="M:Ramda.NET.R.Take(System.Int32,System.String)"/>
-            <see cref="M:Ramda.NET.R.Transduce(System.Object,System.Object,Ramda.NET.RamdaPlaceholder,Ramda.NET.R.IReducible)"/>
+            <see cref="M:Ramda.NET.R.Transduce(System.Func{Ramda.NET.ITransformer,Ramda.NET.ITransformer},Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder)"/>
             <see cref="M:Ramda.NET.R.DropLast(System.Int32,Ramda.NET.RamdaPlaceholder)"/>
             <see cref="M:Ramda.NET.R.DropWhile(System.Object,Ramda.NET.RamdaPlaceholder)"/>
         </member>
@@ -3522,7 +3522,7 @@
             </summary>
             <param name="list">The array to consider.</param>
             <returns>`list` without repeating elements.</returns>
-            <see cref="M:Ramda.NET.R.Transduce(System.Object,System.Object,Ramda.NET.RamdaPlaceholder,Ramda.NET.R.IReducible)"/>
+            <see cref="M:Ramda.NET.R.Transduce(System.Func{Ramda.NET.ITransformer,Ramda.NET.ITransformer},Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder)"/>
         </member>
         <member name="M:Ramda.NET.R.DropRepeats(Ramda.NET.RamdaPlaceholder)">
             <summary>
@@ -3532,7 +3532,7 @@
             </summary>
             <param name="list">The array to consider.</param>
             <returns>`list` without repeating elements.</returns>
-            <see cref="M:Ramda.NET.R.Transduce(System.Object,System.Object,Ramda.NET.RamdaPlaceholder,Ramda.NET.R.IReducible)"/>
+            <see cref="M:Ramda.NET.R.Transduce(System.Func{Ramda.NET.ITransformer,Ramda.NET.ITransformer},Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder)"/>
         </member>
         <member name="M:Ramda.NET.R.DropRepeatsWith``1(System.Func{``0,``0,System.Boolean},System.Collections.Generic.IList{``0})">
             <summary>
@@ -3543,7 +3543,7 @@
             <param name="pred">A predicate used to test whether two items are equal.</param>
             <param name="list">The array to consider.</param>
             <returns>`list` without repeating elements.</returns>
-            <see cref="M:Ramda.NET.R.Transduce(System.Object,System.Object,Ramda.NET.RamdaPlaceholder,Ramda.NET.R.IReducible)"/>
+            <see cref="M:Ramda.NET.R.Transduce(System.Func{Ramda.NET.ITransformer,Ramda.NET.ITransformer},Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder)"/>
         </member>
         <member name="M:Ramda.NET.R.DropRepeatsWith``1(Ramda.NET.RamdaPlaceholder,System.Collections.Generic.IList{``0})">
             <summary>
@@ -3554,7 +3554,7 @@
             <param name="pred">A predicate used to test whether two items are equal.</param>
             <param name="list">The array to consider.</param>
             <returns>`list` without repeating elements.</returns>
-            <see cref="M:Ramda.NET.R.Transduce(System.Object,System.Object,Ramda.NET.RamdaPlaceholder,Ramda.NET.R.IReducible)"/>
+            <see cref="M:Ramda.NET.R.Transduce(System.Func{Ramda.NET.ITransformer,Ramda.NET.ITransformer},Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder)"/>
         </member>
         <member name="M:Ramda.NET.R.DropRepeatsWith``1(System.Func{``0,``0,System.Boolean},Ramda.NET.RamdaPlaceholder)">
             <summary>
@@ -3565,7 +3565,7 @@
             <param name="pred">A predicate used to test whether two items are equal.</param>
             <param name="list">The array to consider.</param>
             <returns>`list` without repeating elements.</returns>
-            <see cref="M:Ramda.NET.R.Transduce(System.Object,System.Object,Ramda.NET.RamdaPlaceholder,Ramda.NET.R.IReducible)"/>
+            <see cref="M:Ramda.NET.R.Transduce(System.Func{Ramda.NET.ITransformer,Ramda.NET.ITransformer},Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder)"/>
         </member>
         <member name="M:Ramda.NET.R.DropRepeatsWith(System.Object,Ramda.NET.RamdaPlaceholder)">
             <summary>
@@ -3576,7 +3576,7 @@
             <param name="pred">A predicate used to test whether two items are equal.</param>
             <param name="list">The array to consider.</param>
             <returns>`list` without repeating elements.</returns>
-            <see cref="M:Ramda.NET.R.Transduce(System.Object,System.Object,Ramda.NET.RamdaPlaceholder,Ramda.NET.R.IReducible)"/>
+            <see cref="M:Ramda.NET.R.Transduce(System.Func{Ramda.NET.ITransformer,Ramda.NET.ITransformer},Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder)"/>
         </member>
         <member name="M:Ramda.NET.R.DropRepeatsWith``1(System.Object,System.Collections.Generic.IList{``0})">
             <summary>
@@ -3587,7 +3587,7 @@
             <param name="pred">A predicate used to test whether two items are equal.</param>
             <param name="list">The array to consider.</param>
             <returns>`list` without repeating elements.</returns>
-            <see cref="M:Ramda.NET.R.Transduce(System.Object,System.Object,Ramda.NET.RamdaPlaceholder,Ramda.NET.R.IReducible)"/>
+            <see cref="M:Ramda.NET.R.Transduce(System.Func{Ramda.NET.ITransformer,Ramda.NET.ITransformer},Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder)"/>
         </member>
         <member name="M:Ramda.NET.R.DropRepeatsWith(Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder)">
             <summary>
@@ -3598,7 +3598,7 @@
             <param name="pred">A predicate used to test whether two items are equal.</param>
             <param name="list">The array to consider.</param>
             <returns>`list` without repeating elements.</returns>
-            <see cref="M:Ramda.NET.R.Transduce(System.Object,System.Object,Ramda.NET.RamdaPlaceholder,Ramda.NET.R.IReducible)"/>
+            <see cref="M:Ramda.NET.R.Transduce(System.Func{Ramda.NET.ITransformer,Ramda.NET.ITransformer},Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder)"/>
         </member>
         <member name="M:Ramda.NET.R.DropWhile``1(System.Func{``0,System.Boolean},System.Collections.Generic.IList{``0})">
             <summary>
@@ -3610,7 +3610,7 @@
             <param name="list">The collection to iterate over.</param>
             <returns>A new array.</returns>
             <see cref="M:Ramda.NET.R.TakeWhile(Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder)"/>
-            <see cref="M:Ramda.NET.R.Transduce(System.Object,System.Object,Ramda.NET.RamdaPlaceholder,Ramda.NET.R.IReducible)"/>
+            <see cref="M:Ramda.NET.R.Transduce(System.Func{Ramda.NET.ITransformer,Ramda.NET.ITransformer},Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder)"/>
             <see cref="M:Ramda.NET.R.AddIndex(System.Delegate)"/>
         </member>
         <member name="M:Ramda.NET.R.DropWhile``1(Ramda.NET.RamdaPlaceholder,System.Collections.Generic.IList{``0})">
@@ -3623,7 +3623,7 @@
             <param name="list">The collection to iterate over.</param>
             <returns>A new array.</returns>
             <see cref="M:Ramda.NET.R.TakeWhile(Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder)"/>
-            <see cref="M:Ramda.NET.R.Transduce(System.Object,System.Object,Ramda.NET.RamdaPlaceholder,Ramda.NET.R.IReducible)"/>
+            <see cref="M:Ramda.NET.R.Transduce(System.Func{Ramda.NET.ITransformer,Ramda.NET.ITransformer},Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder)"/>
             <see cref="M:Ramda.NET.R.AddIndex(System.Delegate)"/>
         </member>
         <member name="M:Ramda.NET.R.DropWhile``1(System.Func{``0,System.Boolean},Ramda.NET.RamdaPlaceholder)">
@@ -3636,7 +3636,7 @@
             <param name="list">The collection to iterate over.</param>
             <returns>A new array.</returns>
             <see cref="M:Ramda.NET.R.TakeWhile(Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder)"/>
-            <see cref="M:Ramda.NET.R.Transduce(System.Object,System.Object,Ramda.NET.RamdaPlaceholder,Ramda.NET.R.IReducible)"/>
+            <see cref="M:Ramda.NET.R.Transduce(System.Func{Ramda.NET.ITransformer,Ramda.NET.ITransformer},Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder)"/>
             <see cref="M:Ramda.NET.R.AddIndex(System.Delegate)"/>
         </member>
         <member name="M:Ramda.NET.R.DropWhile(System.Object,Ramda.NET.RamdaPlaceholder)">
@@ -3649,7 +3649,7 @@
             <param name="list">The collection to iterate over.</param>
             <returns>A new array.</returns>
             <see cref="M:Ramda.NET.R.TakeWhile(Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder)"/>
-            <see cref="M:Ramda.NET.R.Transduce(System.Object,System.Object,Ramda.NET.RamdaPlaceholder,Ramda.NET.R.IReducible)"/>
+            <see cref="M:Ramda.NET.R.Transduce(System.Func{Ramda.NET.ITransformer,Ramda.NET.ITransformer},Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder)"/>
             <see cref="M:Ramda.NET.R.AddIndex(System.Delegate)"/>
         </member>
         <member name="M:Ramda.NET.R.DropWhile``1(System.Object,System.Collections.Generic.IList{``0})">
@@ -3662,7 +3662,7 @@
             <param name="list">The collection to iterate over.</param>
             <returns>A new array.</returns>
             <see cref="M:Ramda.NET.R.TakeWhile(Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder)"/>
-            <see cref="M:Ramda.NET.R.Transduce(System.Object,System.Object,Ramda.NET.RamdaPlaceholder,Ramda.NET.R.IReducible)"/>
+            <see cref="M:Ramda.NET.R.Transduce(System.Func{Ramda.NET.ITransformer,Ramda.NET.ITransformer},Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder)"/>
             <see cref="M:Ramda.NET.R.AddIndex(System.Delegate)"/>
         </member>
         <member name="M:Ramda.NET.R.DropWhile(Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder)">
@@ -3675,7 +3675,7 @@
             <param name="list">The collection to iterate over.</param>
             <returns>A new array.</returns>
             <see cref="M:Ramda.NET.R.TakeWhile(Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder)"/>
-            <see cref="M:Ramda.NET.R.Transduce(System.Object,System.Object,Ramda.NET.RamdaPlaceholder,Ramda.NET.R.IReducible)"/>
+            <see cref="M:Ramda.NET.R.Transduce(System.Func{Ramda.NET.ITransformer,Ramda.NET.ITransformer},Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder)"/>
             <see cref="M:Ramda.NET.R.AddIndex(System.Delegate)"/>
         </member>
         <member name="M:Ramda.NET.R.Either(System.Delegate,System.Delegate)">
@@ -4114,7 +4114,7 @@
             <param name="filterable">second</param>
             <returns>Array</returns>
             <see cref="M:Ramda.NET.R.Reject(System.Object,Ramda.NET.RamdaPlaceholder)"/>
-            <see cref="M:Ramda.NET.R.Transduce(System.Object,System.Object,Ramda.NET.RamdaPlaceholder,Ramda.NET.R.IReducible)"/>
+            <see cref="M:Ramda.NET.R.Transduce(System.Func{Ramda.NET.ITransformer,Ramda.NET.ITransformer},Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder)"/>
             <see cref="M:Ramda.NET.R.AddIndex(System.Delegate)"/>
         </member>
         <member name="M:Ramda.NET.R.Filter``1(Ramda.NET.RamdaPlaceholder,System.Collections.Generic.IList{``0})">
@@ -4127,7 +4127,7 @@
             <param name="filterable">second</param>
             <returns>Array</returns>
             <see cref="M:Ramda.NET.R.Reject(System.Object,Ramda.NET.RamdaPlaceholder)"/>
-            <see cref="M:Ramda.NET.R.Transduce(System.Object,System.Object,Ramda.NET.RamdaPlaceholder,Ramda.NET.R.IReducible)"/>
+            <see cref="M:Ramda.NET.R.Transduce(System.Func{Ramda.NET.ITransformer,Ramda.NET.ITransformer},Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder)"/>
             <see cref="M:Ramda.NET.R.AddIndex(System.Delegate)"/>
         </member>
         <member name="M:Ramda.NET.R.Filter``1(System.Func{``0,System.Boolean},Ramda.NET.RamdaPlaceholder)">
@@ -4140,7 +4140,7 @@
             <param name="filterable">second</param>
             <returns>Array</returns>
             <see cref="M:Ramda.NET.R.Reject(System.Object,Ramda.NET.RamdaPlaceholder)"/>
-            <see cref="M:Ramda.NET.R.Transduce(System.Object,System.Object,Ramda.NET.RamdaPlaceholder,Ramda.NET.R.IReducible)"/>
+            <see cref="M:Ramda.NET.R.Transduce(System.Func{Ramda.NET.ITransformer,Ramda.NET.ITransformer},Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder)"/>
             <see cref="M:Ramda.NET.R.AddIndex(System.Delegate)"/>
         </member>
         <member name="M:Ramda.NET.R.Filter(System.Object,Ramda.NET.RamdaPlaceholder)">
@@ -4153,7 +4153,7 @@
             <param name="filterable">second</param>
             <returns>Array</returns>
             <see cref="M:Ramda.NET.R.Reject(System.Object,Ramda.NET.RamdaPlaceholder)"/>
-            <see cref="M:Ramda.NET.R.Transduce(System.Object,System.Object,Ramda.NET.RamdaPlaceholder,Ramda.NET.R.IReducible)"/>
+            <see cref="M:Ramda.NET.R.Transduce(System.Func{Ramda.NET.ITransformer,Ramda.NET.ITransformer},Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder)"/>
             <see cref="M:Ramda.NET.R.AddIndex(System.Delegate)"/>
         </member>
         <member name="M:Ramda.NET.R.Filter``1(System.Object,System.Collections.Generic.IList{``0})">
@@ -4166,7 +4166,7 @@
             <param name="filterable">second</param>
             <returns>Array</returns>
             <see cref="M:Ramda.NET.R.Reject(System.Object,Ramda.NET.RamdaPlaceholder)"/>
-            <see cref="M:Ramda.NET.R.Transduce(System.Object,System.Object,Ramda.NET.RamdaPlaceholder,Ramda.NET.R.IReducible)"/>
+            <see cref="M:Ramda.NET.R.Transduce(System.Func{Ramda.NET.ITransformer,Ramda.NET.ITransformer},Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder)"/>
             <see cref="M:Ramda.NET.R.AddIndex(System.Delegate)"/>
         </member>
         <member name="M:Ramda.NET.R.Filter(Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder)">
@@ -4179,7 +4179,7 @@
             <param name="filterable">second</param>
             <returns>Array</returns>
             <see cref="M:Ramda.NET.R.Reject(System.Object,Ramda.NET.RamdaPlaceholder)"/>
-            <see cref="M:Ramda.NET.R.Transduce(System.Object,System.Object,Ramda.NET.RamdaPlaceholder,Ramda.NET.R.IReducible)"/>
+            <see cref="M:Ramda.NET.R.Transduce(System.Func{Ramda.NET.ITransformer,Ramda.NET.ITransformer},Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder)"/>
             <see cref="M:Ramda.NET.R.AddIndex(System.Delegate)"/>
         </member>
         <member name="M:Ramda.NET.R.Filter``1(System.Func{``0,System.Boolean},System.Object)">
@@ -4192,7 +4192,7 @@
             <param name="filterable">second</param>
             <returns>Array</returns>
             <see cref="M:Ramda.NET.R.Reject(System.Object,Ramda.NET.RamdaPlaceholder)"/>
-            <see cref="M:Ramda.NET.R.Transduce(System.Object,System.Object,Ramda.NET.RamdaPlaceholder,Ramda.NET.R.IReducible)"/>
+            <see cref="M:Ramda.NET.R.Transduce(System.Func{Ramda.NET.ITransformer,Ramda.NET.ITransformer},Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder)"/>
             <see cref="M:Ramda.NET.R.AddIndex(System.Delegate)"/>
         </member>
         <member name="M:Ramda.NET.R.Filter(Ramda.NET.RamdaPlaceholder,System.Object)">
@@ -4205,7 +4205,7 @@
             <param name="filterable">second</param>
             <returns>Array</returns>
             <see cref="M:Ramda.NET.R.Reject(System.Object,Ramda.NET.RamdaPlaceholder)"/>
-            <see cref="M:Ramda.NET.R.Transduce(System.Object,System.Object,Ramda.NET.RamdaPlaceholder,Ramda.NET.R.IReducible)"/>
+            <see cref="M:Ramda.NET.R.Transduce(System.Func{Ramda.NET.ITransformer,Ramda.NET.ITransformer},Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder)"/>
             <see cref="M:Ramda.NET.R.AddIndex(System.Delegate)"/>
         </member>
         <member name="M:Ramda.NET.R.Filter(System.Object,System.Object)">
@@ -4218,7 +4218,7 @@
             <param name="filterable">second</param>
             <returns>Array</returns>
             <see cref="M:Ramda.NET.R.Reject(System.Object,Ramda.NET.RamdaPlaceholder)"/>
-            <see cref="M:Ramda.NET.R.Transduce(System.Object,System.Object,Ramda.NET.RamdaPlaceholder,Ramda.NET.R.IReducible)"/>
+            <see cref="M:Ramda.NET.R.Transduce(System.Func{Ramda.NET.ITransformer,Ramda.NET.ITransformer},Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder)"/>
             <see cref="M:Ramda.NET.R.AddIndex(System.Delegate)"/>
         </member>
         <member name="M:Ramda.NET.R.Find``1(System.Func{``0,System.Boolean},System.Collections.Generic.IList{``0})">
@@ -4230,7 +4230,7 @@
             <param name="fn">The predicate function used to determine if the element is the       desired one.</param>
             <param name="list">The array to consider.</param>
             <returns>The element found, or `undefined`.</returns>
-            <see cref="M:Ramda.NET.R.Transduce(System.Object,System.Object,Ramda.NET.RamdaPlaceholder,Ramda.NET.R.IReducible)"/>
+            <see cref="M:Ramda.NET.R.Transduce(System.Func{Ramda.NET.ITransformer,Ramda.NET.ITransformer},Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder)"/>
         </member>
         <member name="M:Ramda.NET.R.Find``1(Ramda.NET.RamdaPlaceholder,System.Collections.Generic.IList{``0})">
             <summary>
@@ -4241,7 +4241,7 @@
             <param name="fn">The predicate function used to determine if the element is the       desired one.</param>
             <param name="list">The array to consider.</param>
             <returns>The element found, or `undefined`.</returns>
-            <see cref="M:Ramda.NET.R.Transduce(System.Object,System.Object,Ramda.NET.RamdaPlaceholder,Ramda.NET.R.IReducible)"/>
+            <see cref="M:Ramda.NET.R.Transduce(System.Func{Ramda.NET.ITransformer,Ramda.NET.ITransformer},Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder)"/>
         </member>
         <member name="M:Ramda.NET.R.Find``1(System.Func{``0,System.Boolean},Ramda.NET.RamdaPlaceholder)">
             <summary>
@@ -4252,7 +4252,7 @@
             <param name="fn">The predicate function used to determine if the element is the       desired one.</param>
             <param name="list">The array to consider.</param>
             <returns>The element found, or `undefined`.</returns>
-            <see cref="M:Ramda.NET.R.Transduce(System.Object,System.Object,Ramda.NET.RamdaPlaceholder,Ramda.NET.R.IReducible)"/>
+            <see cref="M:Ramda.NET.R.Transduce(System.Func{Ramda.NET.ITransformer,Ramda.NET.ITransformer},Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder)"/>
         </member>
         <member name="M:Ramda.NET.R.Find(System.Object,Ramda.NET.RamdaPlaceholder)">
             <summary>
@@ -4263,7 +4263,7 @@
             <param name="fn">The predicate function used to determine if the element is the       desired one.</param>
             <param name="list">The array to consider.</param>
             <returns>The element found, or `undefined`.</returns>
-            <see cref="M:Ramda.NET.R.Transduce(System.Object,System.Object,Ramda.NET.RamdaPlaceholder,Ramda.NET.R.IReducible)"/>
+            <see cref="M:Ramda.NET.R.Transduce(System.Func{Ramda.NET.ITransformer,Ramda.NET.ITransformer},Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder)"/>
         </member>
         <member name="M:Ramda.NET.R.Find``1(System.Object,System.Collections.Generic.IList{``0})">
             <summary>
@@ -4274,7 +4274,7 @@
             <param name="fn">The predicate function used to determine if the element is the       desired one.</param>
             <param name="list">The array to consider.</param>
             <returns>The element found, or `undefined`.</returns>
-            <see cref="M:Ramda.NET.R.Transduce(System.Object,System.Object,Ramda.NET.RamdaPlaceholder,Ramda.NET.R.IReducible)"/>
+            <see cref="M:Ramda.NET.R.Transduce(System.Func{Ramda.NET.ITransformer,Ramda.NET.ITransformer},Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder)"/>
         </member>
         <member name="M:Ramda.NET.R.Find(Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder)">
             <summary>
@@ -4285,7 +4285,7 @@
             <param name="fn">The predicate function used to determine if the element is the       desired one.</param>
             <param name="list">The array to consider.</param>
             <returns>The element found, or `undefined`.</returns>
-            <see cref="M:Ramda.NET.R.Transduce(System.Object,System.Object,Ramda.NET.RamdaPlaceholder,Ramda.NET.R.IReducible)"/>
+            <see cref="M:Ramda.NET.R.Transduce(System.Func{Ramda.NET.ITransformer,Ramda.NET.ITransformer},Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder)"/>
         </member>
         <member name="M:Ramda.NET.R.FindIndex``1(System.Func{``0,System.Boolean},System.Collections.Generic.IList{``0})">
             <summary>
@@ -4296,7 +4296,7 @@
             <param name="fn">The predicate function used to determine if the element is thedesired one.</param>
             <param name="list">The array to consider.</param>
             <returns>The index of the element found, or `-1`.</returns>
-            <see cref="M:Ramda.NET.R.Transduce(System.Object,System.Object,Ramda.NET.RamdaPlaceholder,Ramda.NET.R.IReducible)"/>
+            <see cref="M:Ramda.NET.R.Transduce(System.Func{Ramda.NET.ITransformer,Ramda.NET.ITransformer},Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder)"/>
         </member>
         <member name="M:Ramda.NET.R.FindIndex``1(Ramda.NET.RamdaPlaceholder,System.Collections.Generic.IList{``0})">
             <summary>
@@ -4307,7 +4307,7 @@
             <param name="fn">The predicate function used to determine if the element is thedesired one.</param>
             <param name="list">The array to consider.</param>
             <returns>The index of the element found, or `-1`.</returns>
-            <see cref="M:Ramda.NET.R.Transduce(System.Object,System.Object,Ramda.NET.RamdaPlaceholder,Ramda.NET.R.IReducible)"/>
+            <see cref="M:Ramda.NET.R.Transduce(System.Func{Ramda.NET.ITransformer,Ramda.NET.ITransformer},Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder)"/>
         </member>
         <member name="M:Ramda.NET.R.FindIndex``1(System.Func{``0,System.Boolean},Ramda.NET.RamdaPlaceholder)">
             <summary>
@@ -4318,7 +4318,7 @@
             <param name="fn">The predicate function used to determine if the element is thedesired one.</param>
             <param name="list">The array to consider.</param>
             <returns>The index of the element found, or `-1`.</returns>
-            <see cref="M:Ramda.NET.R.Transduce(System.Object,System.Object,Ramda.NET.RamdaPlaceholder,Ramda.NET.R.IReducible)"/>
+            <see cref="M:Ramda.NET.R.Transduce(System.Func{Ramda.NET.ITransformer,Ramda.NET.ITransformer},Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder)"/>
         </member>
         <member name="M:Ramda.NET.R.FindIndex(System.Object,Ramda.NET.RamdaPlaceholder)">
             <summary>
@@ -4329,7 +4329,7 @@
             <param name="fn">The predicate function used to determine if the element is thedesired one.</param>
             <param name="list">The array to consider.</param>
             <returns>The index of the element found, or `-1`.</returns>
-            <see cref="M:Ramda.NET.R.Transduce(System.Object,System.Object,Ramda.NET.RamdaPlaceholder,Ramda.NET.R.IReducible)"/>
+            <see cref="M:Ramda.NET.R.Transduce(System.Func{Ramda.NET.ITransformer,Ramda.NET.ITransformer},Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder)"/>
         </member>
         <member name="M:Ramda.NET.R.FindIndex``1(System.Object,System.Collections.Generic.IList{``0})">
             <summary>
@@ -4340,7 +4340,7 @@
             <param name="fn">The predicate function used to determine if the element is thedesired one.</param>
             <param name="list">The array to consider.</param>
             <returns>The index of the element found, or `-1`.</returns>
-            <see cref="M:Ramda.NET.R.Transduce(System.Object,System.Object,Ramda.NET.RamdaPlaceholder,Ramda.NET.R.IReducible)"/>
+            <see cref="M:Ramda.NET.R.Transduce(System.Func{Ramda.NET.ITransformer,Ramda.NET.ITransformer},Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder)"/>
         </member>
         <member name="M:Ramda.NET.R.FindIndex(Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder)">
             <summary>
@@ -4351,7 +4351,7 @@
             <param name="fn">The predicate function used to determine if the element is thedesired one.</param>
             <param name="list">The array to consider.</param>
             <returns>The index of the element found, or `-1`.</returns>
-            <see cref="M:Ramda.NET.R.Transduce(System.Object,System.Object,Ramda.NET.RamdaPlaceholder,Ramda.NET.R.IReducible)"/>
+            <see cref="M:Ramda.NET.R.Transduce(System.Func{Ramda.NET.ITransformer,Ramda.NET.ITransformer},Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder)"/>
         </member>
         <member name="M:Ramda.NET.R.FindLast``1(System.Func{``0,System.Boolean},System.Collections.Generic.IList{``0})">
             <summary>
@@ -4362,7 +4362,7 @@
             <param name="fn">The predicate function used to determine if the element is thedesired one.</param>
             <param name="list">The array to consider.</param>
             <returns>The element found, or `undefined`.</returns>
-            <see cref="M:Ramda.NET.R.Transduce(System.Object,System.Object,Ramda.NET.RamdaPlaceholder,Ramda.NET.R.IReducible)"/>
+            <see cref="M:Ramda.NET.R.Transduce(System.Func{Ramda.NET.ITransformer,Ramda.NET.ITransformer},Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder)"/>
         </member>
         <member name="M:Ramda.NET.R.FindLast``1(Ramda.NET.RamdaPlaceholder,System.Collections.Generic.IList{``0})">
             <summary>
@@ -4373,7 +4373,7 @@
             <param name="fn">The predicate function used to determine if the element is thedesired one.</param>
             <param name="list">The array to consider.</param>
             <returns>The element found, or `undefined`.</returns>
-            <see cref="M:Ramda.NET.R.Transduce(System.Object,System.Object,Ramda.NET.RamdaPlaceholder,Ramda.NET.R.IReducible)"/>
+            <see cref="M:Ramda.NET.R.Transduce(System.Func{Ramda.NET.ITransformer,Ramda.NET.ITransformer},Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder)"/>
         </member>
         <member name="M:Ramda.NET.R.FindLast``1(System.Func{``0,System.Boolean},Ramda.NET.RamdaPlaceholder)">
             <summary>
@@ -4384,7 +4384,7 @@
             <param name="fn">The predicate function used to determine if the element is thedesired one.</param>
             <param name="list">The array to consider.</param>
             <returns>The element found, or `undefined`.</returns>
-            <see cref="M:Ramda.NET.R.Transduce(System.Object,System.Object,Ramda.NET.RamdaPlaceholder,Ramda.NET.R.IReducible)"/>
+            <see cref="M:Ramda.NET.R.Transduce(System.Func{Ramda.NET.ITransformer,Ramda.NET.ITransformer},Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder)"/>
         </member>
         <member name="M:Ramda.NET.R.FindLast(System.Object,Ramda.NET.RamdaPlaceholder)">
             <summary>
@@ -4395,7 +4395,7 @@
             <param name="fn">The predicate function used to determine if the element is thedesired one.</param>
             <param name="list">The array to consider.</param>
             <returns>The element found, or `undefined`.</returns>
-            <see cref="M:Ramda.NET.R.Transduce(System.Object,System.Object,Ramda.NET.RamdaPlaceholder,Ramda.NET.R.IReducible)"/>
+            <see cref="M:Ramda.NET.R.Transduce(System.Func{Ramda.NET.ITransformer,Ramda.NET.ITransformer},Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder)"/>
         </member>
         <member name="M:Ramda.NET.R.FindLast``1(System.Object,System.Collections.Generic.IList{``0})">
             <summary>
@@ -4406,7 +4406,7 @@
             <param name="fn">The predicate function used to determine if the element is thedesired one.</param>
             <param name="list">The array to consider.</param>
             <returns>The element found, or `undefined`.</returns>
-            <see cref="M:Ramda.NET.R.Transduce(System.Object,System.Object,Ramda.NET.RamdaPlaceholder,Ramda.NET.R.IReducible)"/>
+            <see cref="M:Ramda.NET.R.Transduce(System.Func{Ramda.NET.ITransformer,Ramda.NET.ITransformer},Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder)"/>
         </member>
         <member name="M:Ramda.NET.R.FindLast(Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder)">
             <summary>
@@ -4417,7 +4417,7 @@
             <param name="fn">The predicate function used to determine if the element is thedesired one.</param>
             <param name="list">The array to consider.</param>
             <returns>The element found, or `undefined`.</returns>
-            <see cref="M:Ramda.NET.R.Transduce(System.Object,System.Object,Ramda.NET.RamdaPlaceholder,Ramda.NET.R.IReducible)"/>
+            <see cref="M:Ramda.NET.R.Transduce(System.Func{Ramda.NET.ITransformer,Ramda.NET.ITransformer},Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder)"/>
         </member>
         <member name="M:Ramda.NET.R.FindLastIndex``1(System.Func{``0,System.Boolean},System.Collections.Generic.IList{``0})">
             <summary>
@@ -4428,7 +4428,7 @@
             <param name="fn">The predicate function used to determine if the element is thedesired one.</param>
             <param name="list">The array to consider.</param>
             <returns>The index of the element found, or `-1`.</returns>
-            <see cref="M:Ramda.NET.R.Transduce(System.Object,System.Object,Ramda.NET.RamdaPlaceholder,Ramda.NET.R.IReducible)"/>
+            <see cref="M:Ramda.NET.R.Transduce(System.Func{Ramda.NET.ITransformer,Ramda.NET.ITransformer},Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder)"/>
         </member>
         <member name="M:Ramda.NET.R.FindLastIndex``1(Ramda.NET.RamdaPlaceholder,System.Collections.Generic.IList{``0})">
             <summary>
@@ -4439,7 +4439,7 @@
             <param name="fn">The predicate function used to determine if the element is thedesired one.</param>
             <param name="list">The array to consider.</param>
             <returns>The index of the element found, or `-1`.</returns>
-            <see cref="M:Ramda.NET.R.Transduce(System.Object,System.Object,Ramda.NET.RamdaPlaceholder,Ramda.NET.R.IReducible)"/>
+            <see cref="M:Ramda.NET.R.Transduce(System.Func{Ramda.NET.ITransformer,Ramda.NET.ITransformer},Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder)"/>
         </member>
         <member name="M:Ramda.NET.R.FindLastIndex``1(System.Func{``0,System.Boolean},Ramda.NET.RamdaPlaceholder)">
             <summary>
@@ -4450,7 +4450,7 @@
             <param name="fn">The predicate function used to determine if the element is thedesired one.</param>
             <param name="list">The array to consider.</param>
             <returns>The index of the element found, or `-1`.</returns>
-            <see cref="M:Ramda.NET.R.Transduce(System.Object,System.Object,Ramda.NET.RamdaPlaceholder,Ramda.NET.R.IReducible)"/>
+            <see cref="M:Ramda.NET.R.Transduce(System.Func{Ramda.NET.ITransformer,Ramda.NET.ITransformer},Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder)"/>
         </member>
         <member name="M:Ramda.NET.R.FindLastIndex(System.Object,Ramda.NET.RamdaPlaceholder)">
             <summary>
@@ -4461,7 +4461,7 @@
             <param name="fn">The predicate function used to determine if the element is thedesired one.</param>
             <param name="list">The array to consider.</param>
             <returns>The index of the element found, or `-1`.</returns>
-            <see cref="M:Ramda.NET.R.Transduce(System.Object,System.Object,Ramda.NET.RamdaPlaceholder,Ramda.NET.R.IReducible)"/>
+            <see cref="M:Ramda.NET.R.Transduce(System.Func{Ramda.NET.ITransformer,Ramda.NET.ITransformer},Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder)"/>
         </member>
         <member name="M:Ramda.NET.R.FindLastIndex``1(System.Object,System.Collections.Generic.IList{``0})">
             <summary>
@@ -4472,7 +4472,7 @@
             <param name="fn">The predicate function used to determine if the element is thedesired one.</param>
             <param name="list">The array to consider.</param>
             <returns>The index of the element found, or `-1`.</returns>
-            <see cref="M:Ramda.NET.R.Transduce(System.Object,System.Object,Ramda.NET.RamdaPlaceholder,Ramda.NET.R.IReducible)"/>
+            <see cref="M:Ramda.NET.R.Transduce(System.Func{Ramda.NET.ITransformer,Ramda.NET.ITransformer},Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder)"/>
         </member>
         <member name="M:Ramda.NET.R.FindLastIndex(Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder)">
             <summary>
@@ -4483,7 +4483,7 @@
             <param name="fn">The predicate function used to determine if the element is thedesired one.</param>
             <param name="list">The array to consider.</param>
             <returns>The index of the element found, or `-1`.</returns>
-            <see cref="M:Ramda.NET.R.Transduce(System.Object,System.Object,Ramda.NET.RamdaPlaceholder,Ramda.NET.R.IReducible)"/>
+            <see cref="M:Ramda.NET.R.Transduce(System.Func{Ramda.NET.ITransformer,Ramda.NET.ITransformer},Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder)"/>
         </member>
         <member name="M:Ramda.NET.R.Flatten(System.Collections.IDictionary)">
             <summary>
@@ -4753,7 +4753,7 @@
             <param name="fn">Function :: a -<![CDATA[>]]> String</param>
             <param name="list">The array to group</param>
             <returns>An object with the output of `fn` for keys, mapped to arrays of elements that produced that key when passed to `fn`.</returns>
-            <see cref="M:Ramda.NET.R.Transduce(System.Object,System.Object,Ramda.NET.RamdaPlaceholder,Ramda.NET.R.IReducible)"/>
+            <see cref="M:Ramda.NET.R.Transduce(System.Func{Ramda.NET.ITransformer,Ramda.NET.ITransformer},Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder)"/>
         </member>
         <member name="M:Ramda.NET.R.GroupBy``1(Ramda.NET.RamdaPlaceholder,System.Collections.Generic.IList{``0})">
             <summary>
@@ -4764,7 +4764,7 @@
             <param name="fn">Function :: a -<![CDATA[>]]> String</param>
             <param name="list">The array to group</param>
             <returns>An object with the output of `fn` for keys, mapped to arrays of elements that produced that key when passed to `fn`.</returns>
-            <see cref="M:Ramda.NET.R.Transduce(System.Object,System.Object,Ramda.NET.RamdaPlaceholder,Ramda.NET.R.IReducible)"/>
+            <see cref="M:Ramda.NET.R.Transduce(System.Func{Ramda.NET.ITransformer,Ramda.NET.ITransformer},Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder)"/>
         </member>
         <member name="M:Ramda.NET.R.GroupBy``1(System.Func{``0,System.String},Ramda.NET.RamdaPlaceholder)">
             <summary>
@@ -4775,7 +4775,7 @@
             <param name="fn">Function :: a -<![CDATA[>]]> String</param>
             <param name="list">The array to group</param>
             <returns>An object with the output of `fn` for keys, mapped to arrays of elements that produced that key when passed to `fn`.</returns>
-            <see cref="M:Ramda.NET.R.Transduce(System.Object,System.Object,Ramda.NET.RamdaPlaceholder,Ramda.NET.R.IReducible)"/>
+            <see cref="M:Ramda.NET.R.Transduce(System.Func{Ramda.NET.ITransformer,Ramda.NET.ITransformer},Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder)"/>
         </member>
         <member name="M:Ramda.NET.R.GroupBy(System.Object,Ramda.NET.RamdaPlaceholder)">
             <summary>
@@ -4786,7 +4786,7 @@
             <param name="fn">Function :: a -<![CDATA[>]]> String</param>
             <param name="list">The array to group</param>
             <returns>An object with the output of `fn` for keys, mapped to arrays of elements that produced that key when passed to `fn`.</returns>
-            <see cref="M:Ramda.NET.R.Transduce(System.Object,System.Object,Ramda.NET.RamdaPlaceholder,Ramda.NET.R.IReducible)"/>
+            <see cref="M:Ramda.NET.R.Transduce(System.Func{Ramda.NET.ITransformer,Ramda.NET.ITransformer},Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder)"/>
         </member>
         <member name="M:Ramda.NET.R.GroupBy``1(System.Object,System.Collections.Generic.IList{``0})">
             <summary>
@@ -4797,7 +4797,7 @@
             <param name="fn">Function :: a -<![CDATA[>]]> String</param>
             <param name="list">The array to group</param>
             <returns>An object with the output of `fn` for keys, mapped to arrays of elements that produced that key when passed to `fn`.</returns>
-            <see cref="M:Ramda.NET.R.Transduce(System.Object,System.Object,Ramda.NET.RamdaPlaceholder,Ramda.NET.R.IReducible)"/>
+            <see cref="M:Ramda.NET.R.Transduce(System.Func{Ramda.NET.ITransformer,Ramda.NET.ITransformer},Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder)"/>
         </member>
         <member name="M:Ramda.NET.R.GroupBy(Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder)">
             <summary>
@@ -4808,7 +4808,7 @@
             <param name="fn">Function :: a -<![CDATA[>]]> String</param>
             <param name="list">The array to group</param>
             <returns>An object with the output of `fn` for keys, mapped to arrays of elements that produced that key when passed to `fn`.</returns>
-            <see cref="M:Ramda.NET.R.Transduce(System.Object,System.Object,Ramda.NET.RamdaPlaceholder,Ramda.NET.R.IReducible)"/>
+            <see cref="M:Ramda.NET.R.Transduce(System.Func{Ramda.NET.ITransformer,Ramda.NET.ITransformer},Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder)"/>
         </member>
         <member name="M:Ramda.NET.R.GroupBy``1(System.Func{``0,System.String},Ramda.NET.ITransformer)">
             <summary>
@@ -4819,7 +4819,7 @@
             <param name="fn">Function :: a -<![CDATA[>]]> String</param>
             <param name="list">The array to group</param>
             <returns>An object with the output of `fn` for keys, mapped to arrays of elements that produced that key when passed to `fn`.</returns>
-            <see cref="M:Ramda.NET.R.Transduce(System.Object,System.Object,Ramda.NET.RamdaPlaceholder,Ramda.NET.R.IReducible)"/>
+            <see cref="M:Ramda.NET.R.Transduce(System.Func{Ramda.NET.ITransformer,Ramda.NET.ITransformer},Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder)"/>
         </member>
         <member name="M:Ramda.NET.R.GroupBy(Ramda.NET.RamdaPlaceholder,Ramda.NET.ITransformer)">
             <summary>
@@ -4830,7 +4830,7 @@
             <param name="fn">Function :: a -<![CDATA[>]]> String</param>
             <param name="list">The array to group</param>
             <returns>An object with the output of `fn` for keys, mapped to arrays of elements that produced that key when passed to `fn`.</returns>
-            <see cref="M:Ramda.NET.R.Transduce(System.Object,System.Object,Ramda.NET.RamdaPlaceholder,Ramda.NET.R.IReducible)"/>
+            <see cref="M:Ramda.NET.R.Transduce(System.Func{Ramda.NET.ITransformer,Ramda.NET.ITransformer},Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder)"/>
         </member>
         <member name="M:Ramda.NET.R.GroupBy(System.Object,Ramda.NET.ITransformer)">
             <summary>
@@ -4841,7 +4841,7 @@
             <param name="fn">Function :: a -<![CDATA[>]]> String</param>
             <param name="list">The array to group</param>
             <returns>An object with the output of `fn` for keys, mapped to arrays of elements that produced that key when passed to `fn`.</returns>
-            <see cref="M:Ramda.NET.R.Transduce(System.Object,System.Object,Ramda.NET.RamdaPlaceholder,Ramda.NET.R.IReducible)"/>
+            <see cref="M:Ramda.NET.R.Transduce(System.Func{Ramda.NET.ITransformer,Ramda.NET.ITransformer},Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder)"/>
         </member>
         <member name="M:Ramda.NET.R.GroupWith``1(System.Func{``0,``0,System.Boolean},System.Collections.Generic.IList{``0})">
             <summary>
@@ -7549,7 +7549,7 @@
             <param name="fn">The function to be called on every element of the input `list`.</param>
             <param name="list">The list to be iterated over.</param>
             <returns>The new list.</returns>
-            <see cref="M:Ramda.NET.R.Transduce(System.Object,System.Object,Ramda.NET.RamdaPlaceholder,Ramda.NET.R.IReducible)"/>
+            <see cref="M:Ramda.NET.R.Transduce(System.Func{Ramda.NET.ITransformer,Ramda.NET.ITransformer},Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder)"/>
             <see cref="M:Ramda.NET.R.AddIndex(System.Delegate)"/>
         </member>
         <member name="M:Ramda.NET.R.Map``1(Ramda.NET.RamdaPlaceholder,System.Collections.Generic.IList{``0})">
@@ -7561,7 +7561,7 @@
             <param name="fn">The function to be called on every element of the input `list`.</param>
             <param name="list">The list to be iterated over.</param>
             <returns>The new list.</returns>
-            <see cref="M:Ramda.NET.R.Transduce(System.Object,System.Object,Ramda.NET.RamdaPlaceholder,Ramda.NET.R.IReducible)"/>
+            <see cref="M:Ramda.NET.R.Transduce(System.Func{Ramda.NET.ITransformer,Ramda.NET.ITransformer},Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder)"/>
             <see cref="M:Ramda.NET.R.AddIndex(System.Delegate)"/>
         </member>
         <member name="M:Ramda.NET.R.Map``2(System.Func{``0,``1},Ramda.NET.RamdaPlaceholder)">
@@ -7573,7 +7573,7 @@
             <param name="fn">The function to be called on every element of the input `list`.</param>
             <param name="list">The list to be iterated over.</param>
             <returns>The new list.</returns>
-            <see cref="M:Ramda.NET.R.Transduce(System.Object,System.Object,Ramda.NET.RamdaPlaceholder,Ramda.NET.R.IReducible)"/>
+            <see cref="M:Ramda.NET.R.Transduce(System.Func{Ramda.NET.ITransformer,Ramda.NET.ITransformer},Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder)"/>
             <see cref="M:Ramda.NET.R.AddIndex(System.Delegate)"/>
         </member>
         <member name="M:Ramda.NET.R.Map(System.Object,Ramda.NET.RamdaPlaceholder)">
@@ -7585,7 +7585,7 @@
             <param name="fn">The function to be called on every element of the input `list`.</param>
             <param name="list">The list to be iterated over.</param>
             <returns>The new list.</returns>
-            <see cref="M:Ramda.NET.R.Transduce(System.Object,System.Object,Ramda.NET.RamdaPlaceholder,Ramda.NET.R.IReducible)"/>
+            <see cref="M:Ramda.NET.R.Transduce(System.Func{Ramda.NET.ITransformer,Ramda.NET.ITransformer},Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder)"/>
             <see cref="M:Ramda.NET.R.AddIndex(System.Delegate)"/>
         </member>
         <member name="M:Ramda.NET.R.Map``1(System.Object,System.Collections.Generic.IList{``0})">
@@ -7597,7 +7597,7 @@
             <param name="fn">The function to be called on every element of the input `list`.</param>
             <param name="list">The list to be iterated over.</param>
             <returns>The new list.</returns>
-            <see cref="M:Ramda.NET.R.Transduce(System.Object,System.Object,Ramda.NET.RamdaPlaceholder,Ramda.NET.R.IReducible)"/>
+            <see cref="M:Ramda.NET.R.Transduce(System.Func{Ramda.NET.ITransformer,Ramda.NET.ITransformer},Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder)"/>
             <see cref="M:Ramda.NET.R.AddIndex(System.Delegate)"/>
         </member>
         <member name="M:Ramda.NET.R.Map(Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder)">
@@ -7609,7 +7609,7 @@
             <param name="fn">The function to be called on every element of the input `list`.</param>
             <param name="list">The list to be iterated over.</param>
             <returns>The new list.</returns>
-            <see cref="M:Ramda.NET.R.Transduce(System.Object,System.Object,Ramda.NET.RamdaPlaceholder,Ramda.NET.R.IReducible)"/>
+            <see cref="M:Ramda.NET.R.Transduce(System.Func{Ramda.NET.ITransformer,Ramda.NET.ITransformer},Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder)"/>
             <see cref="M:Ramda.NET.R.AddIndex(System.Delegate)"/>
         </member>
         <member name="M:Ramda.NET.R.Map``2(System.Func{``0,``1},System.Object)">
@@ -7621,7 +7621,7 @@
             <param name="fn">The function to be called on every element of the input `list`.</param>
             <param name="list">The list to be iterated over.</param>
             <returns>The new list.</returns>
-            <see cref="M:Ramda.NET.R.Transduce(System.Object,System.Object,Ramda.NET.RamdaPlaceholder,Ramda.NET.R.IReducible)"/>
+            <see cref="M:Ramda.NET.R.Transduce(System.Func{Ramda.NET.ITransformer,Ramda.NET.ITransformer},Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder)"/>
             <see cref="M:Ramda.NET.R.AddIndex(System.Delegate)"/>
         </member>
         <member name="M:Ramda.NET.R.Map(Ramda.NET.RamdaPlaceholder,System.Object)">
@@ -7633,7 +7633,7 @@
             <param name="fn">The function to be called on every element of the input `list`.</param>
             <param name="list">The list to be iterated over.</param>
             <returns>The new list.</returns>
-            <see cref="M:Ramda.NET.R.Transduce(System.Object,System.Object,Ramda.NET.RamdaPlaceholder,Ramda.NET.R.IReducible)"/>
+            <see cref="M:Ramda.NET.R.Transduce(System.Func{Ramda.NET.ITransformer,Ramda.NET.ITransformer},Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder)"/>
             <see cref="M:Ramda.NET.R.AddIndex(System.Delegate)"/>
         </member>
         <member name="M:Ramda.NET.R.Map(System.Object,System.Object)">
@@ -7645,7 +7645,7 @@
             <param name="fn">The function to be called on every element of the input `list`.</param>
             <param name="list">The list to be iterated over.</param>
             <returns>The new list.</returns>
-            <see cref="M:Ramda.NET.R.Transduce(System.Object,System.Object,Ramda.NET.RamdaPlaceholder,Ramda.NET.R.IReducible)"/>
+            <see cref="M:Ramda.NET.R.Transduce(System.Func{Ramda.NET.ITransformer,Ramda.NET.ITransformer},Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder)"/>
             <see cref="M:Ramda.NET.R.AddIndex(System.Delegate)"/>
         </member>
         <member name="M:Ramda.NET.R.MapAccum``3(System.Func{``0,``0,System.Tuple{System.Object,System.Object}},``2,System.Collections.Generic.IList{``1})">
@@ -12636,7 +12636,7 @@
             <returns>The final, accumulated value.</returns>
             <see cref="M:Ramda.NET.R.Reduce(System.Object,Ramda.NET.RamdaPlaceholder,Ramda.NET.R.IReducible)"/>
             <see cref="M:Ramda.NET.R.Reduced(Ramda.NET.RamdaPlaceholder)"/>
-            <see cref="M:Ramda.NET.R.Into(System.Object,System.Object,Ramda.NET.RamdaPlaceholder)"/>
+            <see cref="M:Ramda.NET.R.Into(Ramda.NET.RamdaPlaceholder,System.Func{Ramda.NET.ITransformer,Ramda.NET.ITransformer},Ramda.NET.R.IReducible)"/>
         </member>
         <member name="M:Ramda.NET.R.Transduce``1(Ramda.NET.RamdaPlaceholder,System.Func{``0,Ramda.NET.ITransformer},``0,Ramda.NET.R.IReducible)">
             <summary>
@@ -12651,7 +12651,7 @@
             <returns>The final, accumulated value.</returns>
             <see cref="M:Ramda.NET.R.Reduce(System.Object,Ramda.NET.RamdaPlaceholder,Ramda.NET.R.IReducible)"/>
             <see cref="M:Ramda.NET.R.Reduced(Ramda.NET.RamdaPlaceholder)"/>
-            <see cref="M:Ramda.NET.R.Into(System.Object,System.Object,Ramda.NET.RamdaPlaceholder)"/>
+            <see cref="M:Ramda.NET.R.Into(Ramda.NET.RamdaPlaceholder,System.Func{Ramda.NET.ITransformer,Ramda.NET.ITransformer},Ramda.NET.R.IReducible)"/>
         </member>
         <member name="M:Ramda.NET.R.Transduce``1(System.Func{Ramda.NET.ITransformer,Ramda.NET.ITransformer},Ramda.NET.RamdaPlaceholder,``0,Ramda.NET.R.IReducible)">
             <summary>
@@ -12666,7 +12666,7 @@
             <returns>The final, accumulated value.</returns>
             <see cref="M:Ramda.NET.R.Reduce(System.Object,Ramda.NET.RamdaPlaceholder,Ramda.NET.R.IReducible)"/>
             <see cref="M:Ramda.NET.R.Reduced(Ramda.NET.RamdaPlaceholder)"/>
-            <see cref="M:Ramda.NET.R.Into(System.Object,System.Object,Ramda.NET.RamdaPlaceholder)"/>
+            <see cref="M:Ramda.NET.R.Into(Ramda.NET.RamdaPlaceholder,System.Func{Ramda.NET.ITransformer,Ramda.NET.ITransformer},Ramda.NET.R.IReducible)"/>
         </member>
         <member name="M:Ramda.NET.R.Transduce``1(System.Func{Ramda.NET.ITransformer,Ramda.NET.ITransformer},System.Func{``0,Ramda.NET.ITransformer},Ramda.NET.RamdaPlaceholder,Ramda.NET.R.IReducible)">
             <summary>
@@ -12681,7 +12681,7 @@
             <returns>The final, accumulated value.</returns>
             <see cref="M:Ramda.NET.R.Reduce(System.Object,Ramda.NET.RamdaPlaceholder,Ramda.NET.R.IReducible)"/>
             <see cref="M:Ramda.NET.R.Reduced(Ramda.NET.RamdaPlaceholder)"/>
-            <see cref="M:Ramda.NET.R.Into(System.Object,System.Object,Ramda.NET.RamdaPlaceholder)"/>
+            <see cref="M:Ramda.NET.R.Into(Ramda.NET.RamdaPlaceholder,System.Func{Ramda.NET.ITransformer,Ramda.NET.ITransformer},Ramda.NET.R.IReducible)"/>
         </member>
         <member name="M:Ramda.NET.R.Transduce``1(Ramda.NET.RamdaPlaceholder,System.Object,``0,Ramda.NET.R.IReducible)">
             <summary>
@@ -12696,7 +12696,7 @@
             <returns>The final, accumulated value.</returns>
             <see cref="M:Ramda.NET.R.Reduce(System.Object,Ramda.NET.RamdaPlaceholder,Ramda.NET.R.IReducible)"/>
             <see cref="M:Ramda.NET.R.Reduced(Ramda.NET.RamdaPlaceholder)"/>
-            <see cref="M:Ramda.NET.R.Into(System.Object,System.Object,Ramda.NET.RamdaPlaceholder)"/>
+            <see cref="M:Ramda.NET.R.Into(Ramda.NET.RamdaPlaceholder,System.Func{Ramda.NET.ITransformer,Ramda.NET.ITransformer},Ramda.NET.R.IReducible)"/>
         </member>
         <member name="M:Ramda.NET.R.Transduce``1(System.Object,Ramda.NET.RamdaPlaceholder,``0,Ramda.NET.R.IReducible)">
             <summary>
@@ -12711,7 +12711,7 @@
             <returns>The final, accumulated value.</returns>
             <see cref="M:Ramda.NET.R.Reduce(System.Object,Ramda.NET.RamdaPlaceholder,Ramda.NET.R.IReducible)"/>
             <see cref="M:Ramda.NET.R.Reduced(Ramda.NET.RamdaPlaceholder)"/>
-            <see cref="M:Ramda.NET.R.Into(System.Object,System.Object,Ramda.NET.RamdaPlaceholder)"/>
+            <see cref="M:Ramda.NET.R.Into(Ramda.NET.RamdaPlaceholder,System.Func{Ramda.NET.ITransformer,Ramda.NET.ITransformer},Ramda.NET.R.IReducible)"/>
         </member>
         <member name="M:Ramda.NET.R.Transduce(System.Object,System.Object,Ramda.NET.RamdaPlaceholder,Ramda.NET.R.IReducible)">
             <summary>
@@ -12726,7 +12726,7 @@
             <returns>The final, accumulated value.</returns>
             <see cref="M:Ramda.NET.R.Reduce(System.Object,Ramda.NET.RamdaPlaceholder,Ramda.NET.R.IReducible)"/>
             <see cref="M:Ramda.NET.R.Reduced(Ramda.NET.RamdaPlaceholder)"/>
-            <see cref="M:Ramda.NET.R.Into(System.Object,System.Object,Ramda.NET.RamdaPlaceholder)"/>
+            <see cref="M:Ramda.NET.R.Into(Ramda.NET.RamdaPlaceholder,System.Func{Ramda.NET.ITransformer,Ramda.NET.ITransformer},Ramda.NET.R.IReducible)"/>
         </member>
         <member name="M:Ramda.NET.R.Transduce``1(System.Object,System.Func{``0,Ramda.NET.ITransformer},``0,Ramda.NET.R.IReducible)">
             <summary>
@@ -12741,7 +12741,7 @@
             <returns>The final, accumulated value.</returns>
             <see cref="M:Ramda.NET.R.Reduce(System.Object,Ramda.NET.RamdaPlaceholder,Ramda.NET.R.IReducible)"/>
             <see cref="M:Ramda.NET.R.Reduced(Ramda.NET.RamdaPlaceholder)"/>
-            <see cref="M:Ramda.NET.R.Into(System.Object,System.Object,Ramda.NET.RamdaPlaceholder)"/>
+            <see cref="M:Ramda.NET.R.Into(Ramda.NET.RamdaPlaceholder,System.Func{Ramda.NET.ITransformer,Ramda.NET.ITransformer},Ramda.NET.R.IReducible)"/>
         </member>
         <member name="M:Ramda.NET.R.Transduce``1(System.Func{Ramda.NET.ITransformer,Ramda.NET.ITransformer},System.Object,``0,Ramda.NET.R.IReducible)">
             <summary>
@@ -12756,7 +12756,7 @@
             <returns>The final, accumulated value.</returns>
             <see cref="M:Ramda.NET.R.Reduce(System.Object,Ramda.NET.RamdaPlaceholder,Ramda.NET.R.IReducible)"/>
             <see cref="M:Ramda.NET.R.Reduced(Ramda.NET.RamdaPlaceholder)"/>
-            <see cref="M:Ramda.NET.R.Into(System.Object,System.Object,Ramda.NET.RamdaPlaceholder)"/>
+            <see cref="M:Ramda.NET.R.Into(Ramda.NET.RamdaPlaceholder,System.Func{Ramda.NET.ITransformer,Ramda.NET.ITransformer},Ramda.NET.R.IReducible)"/>
         </member>
         <member name="M:Ramda.NET.R.Transduce``1(System.Object,System.Object,``0,Ramda.NET.R.IReducible)">
             <summary>
@@ -12771,7 +12771,7 @@
             <returns>The final, accumulated value.</returns>
             <see cref="M:Ramda.NET.R.Reduce(System.Object,Ramda.NET.RamdaPlaceholder,Ramda.NET.R.IReducible)"/>
             <see cref="M:Ramda.NET.R.Reduced(Ramda.NET.RamdaPlaceholder)"/>
-            <see cref="M:Ramda.NET.R.Into(System.Object,System.Object,Ramda.NET.RamdaPlaceholder)"/>
+            <see cref="M:Ramda.NET.R.Into(Ramda.NET.RamdaPlaceholder,System.Func{Ramda.NET.ITransformer,Ramda.NET.ITransformer},Ramda.NET.R.IReducible)"/>
         </member>
         <member name="M:Ramda.NET.R.Traverse``1(Ramda.NET.DynamicDelegate,Ramda.NET.DynamicDelegate,``0)">
             <summary>
@@ -13071,7 +13071,7 @@
             <param name="list">first</param>
             <returns>*</returns>
             <see cref="M:Ramda.NET.R.Flatten(System.Collections.IDictionary)"/>
-            <see cref="M:Ramda.NET.R.Chain(System.Delegate,Ramda.NET.RamdaPlaceholder)"/>
+            <see cref="M:Ramda.NET.R.Chain(System.Delegate,System.Delegate)"/>
         </member>
         <member name="M:Ramda.NET.R.UseWith``1(System.Delegate,System.Collections.Generic.IList{System.Object})">
             <summary>
@@ -13122,7 +13122,7 @@
             <param name="list1">The values to be removed from `list2`.</param>
             <param name="list2">The array to remove values from.</param>
             <returns>The new array without values in `list1`.</returns>
-            <see cref="M:Ramda.NET.R.Transduce(System.Object,System.Object,Ramda.NET.RamdaPlaceholder,Ramda.NET.R.IReducible)"/>
+            <see cref="M:Ramda.NET.R.Transduce(System.Func{Ramda.NET.ITransformer,Ramda.NET.ITransformer},Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder)"/>
         </member>
         <member name="M:Ramda.NET.R.Without``1(Ramda.NET.RamdaPlaceholder,System.Collections.Generic.IList{``0})">
             <summary>
@@ -13133,7 +13133,7 @@
             <param name="list1">The values to be removed from `list2`.</param>
             <param name="list2">The array to remove values from.</param>
             <returns>The new array without values in `list1`.</returns>
-            <see cref="M:Ramda.NET.R.Transduce(System.Object,System.Object,Ramda.NET.RamdaPlaceholder,Ramda.NET.R.IReducible)"/>
+            <see cref="M:Ramda.NET.R.Transduce(System.Func{Ramda.NET.ITransformer,Ramda.NET.ITransformer},Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder)"/>
         </member>
         <member name="M:Ramda.NET.R.Without``1(System.Collections.Generic.IList{``0},Ramda.NET.RamdaPlaceholder)">
             <summary>
@@ -13144,7 +13144,7 @@
             <param name="list1">The values to be removed from `list2`.</param>
             <param name="list2">The array to remove values from.</param>
             <returns>The new array without values in `list1`.</returns>
-            <see cref="M:Ramda.NET.R.Transduce(System.Object,System.Object,Ramda.NET.RamdaPlaceholder,Ramda.NET.R.IReducible)"/>
+            <see cref="M:Ramda.NET.R.Transduce(System.Func{Ramda.NET.ITransformer,Ramda.NET.ITransformer},Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder)"/>
         </member>
         <member name="M:Ramda.NET.R.Without(Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder)">
             <summary>
@@ -13155,7 +13155,7 @@
             <param name="list1">The values to be removed from `list2`.</param>
             <param name="list2">The array to remove values from.</param>
             <returns>The new array without values in `list1`.</returns>
-            <see cref="M:Ramda.NET.R.Transduce(System.Object,System.Object,Ramda.NET.RamdaPlaceholder,Ramda.NET.R.IReducible)"/>
+            <see cref="M:Ramda.NET.R.Transduce(System.Func{Ramda.NET.ITransformer,Ramda.NET.ITransformer},Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder)"/>
         </member>
         <member name="M:Ramda.NET.R.Range(System.Int32,System.Int32)">
             <summary>
@@ -13444,7 +13444,7 @@
             <param name="x">The final value of the reduce.</param>
             <returns>The wrapped value.</returns>
             <see cref="M:Ramda.NET.R.Reduce(System.Object,Ramda.NET.RamdaPlaceholder,Ramda.NET.R.IReducible)"/>
-            <see cref="M:Ramda.NET.R.Transduce(System.Object,System.Object,Ramda.NET.RamdaPlaceholder,Ramda.NET.R.IReducible)"/>
+            <see cref="M:Ramda.NET.R.Transduce(System.Func{Ramda.NET.ITransformer,Ramda.NET.ITransformer},Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder)"/>
         </member>
         <member name="M:Ramda.NET.R.Reduced(Ramda.NET.RamdaPlaceholder)">
             <summary>
@@ -13455,7 +13455,7 @@
             <param name="x">The final value of the reduce.</param>
             <returns>The wrapped value.</returns>
             <see cref="M:Ramda.NET.R.Reduce(System.Object,Ramda.NET.RamdaPlaceholder,Ramda.NET.R.IReducible)"/>
-            <see cref="M:Ramda.NET.R.Transduce(System.Object,System.Object,Ramda.NET.RamdaPlaceholder,Ramda.NET.R.IReducible)"/>
+            <see cref="M:Ramda.NET.R.Transduce(System.Func{Ramda.NET.ITransformer,Ramda.NET.ITransformer},Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder)"/>
         </member>
         <member name="M:Ramda.NET.R.ReduceRight``3(System.Func{``1,``0,``2},``1,System.Collections.Generic.IEnumerable{``0})">
             <summary>
@@ -13835,7 +13835,7 @@
             <param name="filterable">second</param>
             <returns>Array</returns>
             <see cref="M:Ramda.NET.R.Filter(System.Object,Ramda.NET.RamdaPlaceholder)"/>
-            <see cref="M:Ramda.NET.R.Transduce(System.Object,System.Object,Ramda.NET.RamdaPlaceholder,Ramda.NET.R.IReducible)"/>
+            <see cref="M:Ramda.NET.R.Transduce(System.Func{Ramda.NET.ITransformer,Ramda.NET.ITransformer},Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder)"/>
             <see cref="M:Ramda.NET.R.AddIndex(System.Delegate)"/>
         </member>
         <member name="M:Ramda.NET.R.Reject``1(Ramda.NET.RamdaPlaceholder,``0)">
@@ -13848,7 +13848,7 @@
             <param name="filterable">second</param>
             <returns>Array</returns>
             <see cref="M:Ramda.NET.R.Filter(System.Object,Ramda.NET.RamdaPlaceholder)"/>
-            <see cref="M:Ramda.NET.R.Transduce(System.Object,System.Object,Ramda.NET.RamdaPlaceholder,Ramda.NET.R.IReducible)"/>
+            <see cref="M:Ramda.NET.R.Transduce(System.Func{Ramda.NET.ITransformer,Ramda.NET.ITransformer},Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder)"/>
             <see cref="M:Ramda.NET.R.AddIndex(System.Delegate)"/>
         </member>
         <member name="M:Ramda.NET.R.Reject``1(System.Func{``0,System.Boolean},Ramda.NET.RamdaPlaceholder)">
@@ -13861,7 +13861,7 @@
             <param name="filterable">second</param>
             <returns>Array</returns>
             <see cref="M:Ramda.NET.R.Filter(System.Object,Ramda.NET.RamdaPlaceholder)"/>
-            <see cref="M:Ramda.NET.R.Transduce(System.Object,System.Object,Ramda.NET.RamdaPlaceholder,Ramda.NET.R.IReducible)"/>
+            <see cref="M:Ramda.NET.R.Transduce(System.Func{Ramda.NET.ITransformer,Ramda.NET.ITransformer},Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder)"/>
             <see cref="M:Ramda.NET.R.AddIndex(System.Delegate)"/>
         </member>
         <member name="M:Ramda.NET.R.Reject(System.Object,Ramda.NET.RamdaPlaceholder)">
@@ -13874,7 +13874,7 @@
             <param name="filterable">second</param>
             <returns>Array</returns>
             <see cref="M:Ramda.NET.R.Filter(System.Object,Ramda.NET.RamdaPlaceholder)"/>
-            <see cref="M:Ramda.NET.R.Transduce(System.Object,System.Object,Ramda.NET.RamdaPlaceholder,Ramda.NET.R.IReducible)"/>
+            <see cref="M:Ramda.NET.R.Transduce(System.Func{Ramda.NET.ITransformer,Ramda.NET.ITransformer},Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder)"/>
             <see cref="M:Ramda.NET.R.AddIndex(System.Delegate)"/>
         </member>
         <member name="M:Ramda.NET.R.Reject``1(System.Object,``0)">
@@ -13887,7 +13887,7 @@
             <param name="filterable">second</param>
             <returns>Array</returns>
             <see cref="M:Ramda.NET.R.Filter(System.Object,Ramda.NET.RamdaPlaceholder)"/>
-            <see cref="M:Ramda.NET.R.Transduce(System.Object,System.Object,Ramda.NET.RamdaPlaceholder,Ramda.NET.R.IReducible)"/>
+            <see cref="M:Ramda.NET.R.Transduce(System.Func{Ramda.NET.ITransformer,Ramda.NET.ITransformer},Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder)"/>
             <see cref="M:Ramda.NET.R.AddIndex(System.Delegate)"/>
         </member>
         <member name="M:Ramda.NET.R.Reject(Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder)">
@@ -13900,7 +13900,7 @@
             <param name="filterable">second</param>
             <returns>Array</returns>
             <see cref="M:Ramda.NET.R.Filter(System.Object,Ramda.NET.RamdaPlaceholder)"/>
-            <see cref="M:Ramda.NET.R.Transduce(System.Object,System.Object,Ramda.NET.RamdaPlaceholder,Ramda.NET.R.IReducible)"/>
+            <see cref="M:Ramda.NET.R.Transduce(System.Func{Ramda.NET.ITransformer,Ramda.NET.ITransformer},Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder)"/>
             <see cref="M:Ramda.NET.R.AddIndex(System.Delegate)"/>
         </member>
         <member name="M:Ramda.NET.R.Remove``1(System.Int32,System.Int32,System.Collections.Generic.IList{``0})">
@@ -14212,7 +14212,7 @@
             <param name="of">first</param>
             <param name="traversable">second</param>
             <returns>*</returns>
-            <see cref="M:Ramda.NET.R.Traverse(Ramda.NET.DynamicDelegate,Ramda.NET.DynamicDelegate,Ramda.NET.RamdaPlaceholder)"/>
+            <see cref="M:Ramda.NET.R.Traverse(System.Delegate,Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder)"/>
         </member>
         <member name="M:Ramda.NET.R.Sequence``1(Ramda.NET.RamdaPlaceholder,``0)">
             <summary>
@@ -14223,7 +14223,7 @@
             <param name="of">first</param>
             <param name="traversable">second</param>
             <returns>*</returns>
-            <see cref="M:Ramda.NET.R.Traverse(Ramda.NET.DynamicDelegate,Ramda.NET.DynamicDelegate,Ramda.NET.RamdaPlaceholder)"/>
+            <see cref="M:Ramda.NET.R.Traverse(System.Delegate,Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder)"/>
         </member>
         <member name="M:Ramda.NET.R.Sequence``1(System.Object,``0)">
             <summary>
@@ -14234,7 +14234,7 @@
             <param name="of">first</param>
             <param name="traversable">second</param>
             <returns>*</returns>
-            <see cref="M:Ramda.NET.R.Traverse(Ramda.NET.DynamicDelegate,Ramda.NET.DynamicDelegate,Ramda.NET.RamdaPlaceholder)"/>
+            <see cref="M:Ramda.NET.R.Traverse(System.Delegate,Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder)"/>
         </member>
         <member name="M:Ramda.NET.R.Sequence``1(System.Delegate,System.Collections.Generic.IList{``0})">
             <summary>
@@ -14245,7 +14245,7 @@
             <param name="of">first</param>
             <param name="traversable">second</param>
             <returns>*</returns>
-            <see cref="M:Ramda.NET.R.Traverse(Ramda.NET.DynamicDelegate,Ramda.NET.DynamicDelegate,Ramda.NET.RamdaPlaceholder)"/>
+            <see cref="M:Ramda.NET.R.Traverse(System.Delegate,Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder)"/>
         </member>
         <member name="M:Ramda.NET.R.Sequence``1(Ramda.NET.RamdaPlaceholder,System.Collections.Generic.IList{``0})">
             <summary>
@@ -14256,7 +14256,7 @@
             <param name="of">first</param>
             <param name="traversable">second</param>
             <returns>*</returns>
-            <see cref="M:Ramda.NET.R.Traverse(Ramda.NET.DynamicDelegate,Ramda.NET.DynamicDelegate,Ramda.NET.RamdaPlaceholder)"/>
+            <see cref="M:Ramda.NET.R.Traverse(System.Delegate,Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder)"/>
         </member>
         <member name="M:Ramda.NET.R.Sequence(System.Delegate,Ramda.NET.RamdaPlaceholder)">
             <summary>
@@ -14267,7 +14267,7 @@
             <param name="of">first</param>
             <param name="traversable">second</param>
             <returns>*</returns>
-            <see cref="M:Ramda.NET.R.Traverse(Ramda.NET.DynamicDelegate,Ramda.NET.DynamicDelegate,Ramda.NET.RamdaPlaceholder)"/>
+            <see cref="M:Ramda.NET.R.Traverse(System.Delegate,Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder)"/>
         </member>
         <member name="M:Ramda.NET.R.Sequence(System.Object,Ramda.NET.RamdaPlaceholder)">
             <summary>
@@ -14278,7 +14278,7 @@
             <param name="of">first</param>
             <param name="traversable">second</param>
             <returns>*</returns>
-            <see cref="M:Ramda.NET.R.Traverse(Ramda.NET.DynamicDelegate,Ramda.NET.DynamicDelegate,Ramda.NET.RamdaPlaceholder)"/>
+            <see cref="M:Ramda.NET.R.Traverse(System.Delegate,Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder)"/>
         </member>
         <member name="M:Ramda.NET.R.Sequence``1(System.Object,System.Collections.Generic.IList{``0})">
             <summary>
@@ -14289,7 +14289,7 @@
             <param name="of">first</param>
             <param name="traversable">second</param>
             <returns>*</returns>
-            <see cref="M:Ramda.NET.R.Traverse(Ramda.NET.DynamicDelegate,Ramda.NET.DynamicDelegate,Ramda.NET.RamdaPlaceholder)"/>
+            <see cref="M:Ramda.NET.R.Traverse(System.Delegate,Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder)"/>
         </member>
         <member name="M:Ramda.NET.R.Sequence(Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder)">
             <summary>
@@ -14300,7 +14300,7 @@
             <param name="of">first</param>
             <param name="traversable">second</param>
             <returns>*</returns>
-            <see cref="M:Ramda.NET.R.Traverse(Ramda.NET.DynamicDelegate,Ramda.NET.DynamicDelegate,Ramda.NET.RamdaPlaceholder)"/>
+            <see cref="M:Ramda.NET.R.Traverse(System.Delegate,Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder)"/>
         </member>
         <member name="M:Ramda.NET.R.Slice``1(System.Int32,System.Int32,System.Collections.Generic.IList{``0})">
             <summary>
@@ -14865,7 +14865,7 @@
             <param name="list">The collection to iterate over.</param>
             <returns>A new array.</returns>
             <see cref="M:Ramda.NET.R.DropWhile(System.Object,Ramda.NET.RamdaPlaceholder)"/>
-            <see cref="M:Ramda.NET.R.Transduce(System.Object,System.Object,Ramda.NET.RamdaPlaceholder,Ramda.NET.R.IReducible)"/>
+            <see cref="M:Ramda.NET.R.Transduce(System.Func{Ramda.NET.ITransformer,Ramda.NET.ITransformer},Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder)"/>
             <see cref="M:Ramda.NET.R.AddIndex(System.Delegate)"/>
         </member>
         <member name="M:Ramda.NET.R.TakeWhile``1(Ramda.NET.RamdaPlaceholder,System.Collections.Generic.IList{``0})">
@@ -14878,7 +14878,7 @@
             <param name="list">The collection to iterate over.</param>
             <returns>A new array.</returns>
             <see cref="M:Ramda.NET.R.DropWhile(System.Object,Ramda.NET.RamdaPlaceholder)"/>
-            <see cref="M:Ramda.NET.R.Transduce(System.Object,System.Object,Ramda.NET.RamdaPlaceholder,Ramda.NET.R.IReducible)"/>
+            <see cref="M:Ramda.NET.R.Transduce(System.Func{Ramda.NET.ITransformer,Ramda.NET.ITransformer},Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder)"/>
             <see cref="M:Ramda.NET.R.AddIndex(System.Delegate)"/>
         </member>
         <member name="M:Ramda.NET.R.TakeWhile``1(System.Func{``0,System.Boolean},Ramda.NET.RamdaPlaceholder)">
@@ -14891,7 +14891,7 @@
             <param name="list">The collection to iterate over.</param>
             <returns>A new array.</returns>
             <see cref="M:Ramda.NET.R.DropWhile(System.Object,Ramda.NET.RamdaPlaceholder)"/>
-            <see cref="M:Ramda.NET.R.Transduce(System.Object,System.Object,Ramda.NET.RamdaPlaceholder,Ramda.NET.R.IReducible)"/>
+            <see cref="M:Ramda.NET.R.Transduce(System.Func{Ramda.NET.ITransformer,Ramda.NET.ITransformer},Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder)"/>
             <see cref="M:Ramda.NET.R.AddIndex(System.Delegate)"/>
         </member>
         <member name="M:Ramda.NET.R.TakeWhile(Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder)">
@@ -14904,7 +14904,7 @@
             <param name="list">The collection to iterate over.</param>
             <returns>A new array.</returns>
             <see cref="M:Ramda.NET.R.DropWhile(System.Object,Ramda.NET.RamdaPlaceholder)"/>
-            <see cref="M:Ramda.NET.R.Transduce(System.Object,System.Object,Ramda.NET.RamdaPlaceholder,Ramda.NET.R.IReducible)"/>
+            <see cref="M:Ramda.NET.R.Transduce(System.Func{Ramda.NET.ITransformer,Ramda.NET.ITransformer},Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder)"/>
             <see cref="M:Ramda.NET.R.AddIndex(System.Delegate)"/>
         </member>
         <member name="M:Ramda.NET.R.Tap``1(System.Action{``0},``0)">
@@ -15078,7 +15078,7 @@
             <returns>The final, accumulated value.</returns>
             <see cref="M:Ramda.NET.R.Reduce(System.Object,Ramda.NET.RamdaPlaceholder,Ramda.NET.R.IReducible)"/>
             <see cref="M:Ramda.NET.R.Reduced(Ramda.NET.RamdaPlaceholder)"/>
-            <see cref="M:Ramda.NET.R.Into(System.Object,System.Object,Ramda.NET.RamdaPlaceholder)"/>
+            <see cref="M:Ramda.NET.R.Into(Ramda.NET.RamdaPlaceholder,System.Func{Ramda.NET.ITransformer,Ramda.NET.ITransformer},Ramda.NET.R.IReducible)"/>
         </member>
         <member name="M:Ramda.NET.R.Transduce``2(Ramda.NET.RamdaPlaceholder,System.Func{``1,Ramda.NET.ITransformer},``1,System.Collections.Generic.IList{``0})">
             <summary>
@@ -15093,7 +15093,7 @@
             <returns>The final, accumulated value.</returns>
             <see cref="M:Ramda.NET.R.Reduce(System.Object,Ramda.NET.RamdaPlaceholder,Ramda.NET.R.IReducible)"/>
             <see cref="M:Ramda.NET.R.Reduced(Ramda.NET.RamdaPlaceholder)"/>
-            <see cref="M:Ramda.NET.R.Into(System.Object,System.Object,Ramda.NET.RamdaPlaceholder)"/>
+            <see cref="M:Ramda.NET.R.Into(Ramda.NET.RamdaPlaceholder,System.Func{Ramda.NET.ITransformer,Ramda.NET.ITransformer},Ramda.NET.R.IReducible)"/>
         </member>
         <member name="M:Ramda.NET.R.Transduce``2(System.Func{Ramda.NET.ITransformer,Ramda.NET.ITransformer},Ramda.NET.RamdaPlaceholder,``1,System.Collections.Generic.IList{``0})">
             <summary>
@@ -15108,7 +15108,7 @@
             <returns>The final, accumulated value.</returns>
             <see cref="M:Ramda.NET.R.Reduce(System.Object,Ramda.NET.RamdaPlaceholder,Ramda.NET.R.IReducible)"/>
             <see cref="M:Ramda.NET.R.Reduced(Ramda.NET.RamdaPlaceholder)"/>
-            <see cref="M:Ramda.NET.R.Into(System.Object,System.Object,Ramda.NET.RamdaPlaceholder)"/>
+            <see cref="M:Ramda.NET.R.Into(Ramda.NET.RamdaPlaceholder,System.Func{Ramda.NET.ITransformer,Ramda.NET.ITransformer},Ramda.NET.R.IReducible)"/>
         </member>
         <member name="M:Ramda.NET.R.Transduce``2(System.Func{Ramda.NET.ITransformer,Ramda.NET.ITransformer},System.Func{``1,Ramda.NET.ITransformer},Ramda.NET.RamdaPlaceholder,System.Collections.Generic.IList{``0})">
             <summary>
@@ -15123,7 +15123,7 @@
             <returns>The final, accumulated value.</returns>
             <see cref="M:Ramda.NET.R.Reduce(System.Object,Ramda.NET.RamdaPlaceholder,Ramda.NET.R.IReducible)"/>
             <see cref="M:Ramda.NET.R.Reduced(Ramda.NET.RamdaPlaceholder)"/>
-            <see cref="M:Ramda.NET.R.Into(System.Object,System.Object,Ramda.NET.RamdaPlaceholder)"/>
+            <see cref="M:Ramda.NET.R.Into(Ramda.NET.RamdaPlaceholder,System.Func{Ramda.NET.ITransformer,Ramda.NET.ITransformer},Ramda.NET.R.IReducible)"/>
         </member>
         <member name="M:Ramda.NET.R.Transduce``1(System.Func{Ramda.NET.ITransformer,Ramda.NET.ITransformer},System.Func{``0,Ramda.NET.ITransformer},``0,Ramda.NET.RamdaPlaceholder)">
             <summary>
@@ -15138,7 +15138,7 @@
             <returns>The final, accumulated value.</returns>
             <see cref="M:Ramda.NET.R.Reduce(System.Object,Ramda.NET.RamdaPlaceholder,Ramda.NET.R.IReducible)"/>
             <see cref="M:Ramda.NET.R.Reduced(Ramda.NET.RamdaPlaceholder)"/>
-            <see cref="M:Ramda.NET.R.Into(System.Object,System.Object,Ramda.NET.RamdaPlaceholder)"/>
+            <see cref="M:Ramda.NET.R.Into(Ramda.NET.RamdaPlaceholder,System.Func{Ramda.NET.ITransformer,Ramda.NET.ITransformer},Ramda.NET.R.IReducible)"/>
         </member>
         <member name="M:Ramda.NET.R.Transduce(System.Func{Ramda.NET.ITransformer,Ramda.NET.ITransformer},Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder)">
             <summary>
@@ -15153,7 +15153,7 @@
             <returns>The final, accumulated value.</returns>
             <see cref="M:Ramda.NET.R.Reduce(System.Object,Ramda.NET.RamdaPlaceholder,Ramda.NET.R.IReducible)"/>
             <see cref="M:Ramda.NET.R.Reduced(Ramda.NET.RamdaPlaceholder)"/>
-            <see cref="M:Ramda.NET.R.Into(System.Object,System.Object,Ramda.NET.RamdaPlaceholder)"/>
+            <see cref="M:Ramda.NET.R.Into(Ramda.NET.RamdaPlaceholder,System.Func{Ramda.NET.ITransformer,Ramda.NET.ITransformer},Ramda.NET.R.IReducible)"/>
         </member>
         <member name="M:Ramda.NET.R.Transduce``1(System.Func{Ramda.NET.ITransformer,Ramda.NET.ITransformer},System.Func{``0,Ramda.NET.ITransformer},Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder)">
             <summary>
@@ -15168,7 +15168,7 @@
             <returns>The final, accumulated value.</returns>
             <see cref="M:Ramda.NET.R.Reduce(System.Object,Ramda.NET.RamdaPlaceholder,Ramda.NET.R.IReducible)"/>
             <see cref="M:Ramda.NET.R.Reduced(Ramda.NET.RamdaPlaceholder)"/>
-            <see cref="M:Ramda.NET.R.Into(System.Object,System.Object,Ramda.NET.RamdaPlaceholder)"/>
+            <see cref="M:Ramda.NET.R.Into(Ramda.NET.RamdaPlaceholder,System.Func{Ramda.NET.ITransformer,Ramda.NET.ITransformer},Ramda.NET.R.IReducible)"/>
         </member>
         <member name="M:Ramda.NET.R.Transduce``2(Ramda.NET.RamdaPlaceholder,System.Object,``1,System.Collections.Generic.IList{``0})">
             <summary>
@@ -15183,7 +15183,7 @@
             <returns>The final, accumulated value.</returns>
             <see cref="M:Ramda.NET.R.Reduce(System.Object,Ramda.NET.RamdaPlaceholder,Ramda.NET.R.IReducible)"/>
             <see cref="M:Ramda.NET.R.Reduced(Ramda.NET.RamdaPlaceholder)"/>
-            <see cref="M:Ramda.NET.R.Into(System.Object,System.Object,Ramda.NET.RamdaPlaceholder)"/>
+            <see cref="M:Ramda.NET.R.Into(Ramda.NET.RamdaPlaceholder,System.Func{Ramda.NET.ITransformer,Ramda.NET.ITransformer},Ramda.NET.R.IReducible)"/>
         </member>
         <member name="M:Ramda.NET.R.Transduce``2(System.Object,Ramda.NET.RamdaPlaceholder,``1,System.Collections.Generic.IList{``0})">
             <summary>
@@ -15198,7 +15198,7 @@
             <returns>The final, accumulated value.</returns>
             <see cref="M:Ramda.NET.R.Reduce(System.Object,Ramda.NET.RamdaPlaceholder,Ramda.NET.R.IReducible)"/>
             <see cref="M:Ramda.NET.R.Reduced(Ramda.NET.RamdaPlaceholder)"/>
-            <see cref="M:Ramda.NET.R.Into(System.Object,System.Object,Ramda.NET.RamdaPlaceholder)"/>
+            <see cref="M:Ramda.NET.R.Into(Ramda.NET.RamdaPlaceholder,System.Func{Ramda.NET.ITransformer,Ramda.NET.ITransformer},Ramda.NET.R.IReducible)"/>
         </member>
         <member name="M:Ramda.NET.R.Transduce``1(System.Object,System.Object,Ramda.NET.RamdaPlaceholder,System.Collections.Generic.IList{``0})">
             <summary>
@@ -15213,7 +15213,7 @@
             <returns>The final, accumulated value.</returns>
             <see cref="M:Ramda.NET.R.Reduce(System.Object,Ramda.NET.RamdaPlaceholder,Ramda.NET.R.IReducible)"/>
             <see cref="M:Ramda.NET.R.Reduced(Ramda.NET.RamdaPlaceholder)"/>
-            <see cref="M:Ramda.NET.R.Into(System.Object,System.Object,Ramda.NET.RamdaPlaceholder)"/>
+            <see cref="M:Ramda.NET.R.Into(Ramda.NET.RamdaPlaceholder,System.Func{Ramda.NET.ITransformer,Ramda.NET.ITransformer},Ramda.NET.R.IReducible)"/>
         </member>
         <member name="M:Ramda.NET.R.Transduce``1(System.Object,System.Object,``0,Ramda.NET.RamdaPlaceholder)">
             <summary>
@@ -15228,7 +15228,7 @@
             <returns>The final, accumulated value.</returns>
             <see cref="M:Ramda.NET.R.Reduce(System.Object,Ramda.NET.RamdaPlaceholder,Ramda.NET.R.IReducible)"/>
             <see cref="M:Ramda.NET.R.Reduced(Ramda.NET.RamdaPlaceholder)"/>
-            <see cref="M:Ramda.NET.R.Into(System.Object,System.Object,Ramda.NET.RamdaPlaceholder)"/>
+            <see cref="M:Ramda.NET.R.Into(Ramda.NET.RamdaPlaceholder,System.Func{Ramda.NET.ITransformer,Ramda.NET.ITransformer},Ramda.NET.R.IReducible)"/>
         </member>
         <member name="M:Ramda.NET.R.Transduce(System.Object,Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder)">
             <summary>
@@ -15243,7 +15243,7 @@
             <returns>The final, accumulated value.</returns>
             <see cref="M:Ramda.NET.R.Reduce(System.Object,Ramda.NET.RamdaPlaceholder,Ramda.NET.R.IReducible)"/>
             <see cref="M:Ramda.NET.R.Reduced(Ramda.NET.RamdaPlaceholder)"/>
-            <see cref="M:Ramda.NET.R.Into(System.Object,System.Object,Ramda.NET.RamdaPlaceholder)"/>
+            <see cref="M:Ramda.NET.R.Into(Ramda.NET.RamdaPlaceholder,System.Func{Ramda.NET.ITransformer,Ramda.NET.ITransformer},Ramda.NET.R.IReducible)"/>
         </member>
         <member name="M:Ramda.NET.R.Transduce(System.Object,System.Object,Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder)">
             <summary>
@@ -15258,7 +15258,7 @@
             <returns>The final, accumulated value.</returns>
             <see cref="M:Ramda.NET.R.Reduce(System.Object,Ramda.NET.RamdaPlaceholder,Ramda.NET.R.IReducible)"/>
             <see cref="M:Ramda.NET.R.Reduced(Ramda.NET.RamdaPlaceholder)"/>
-            <see cref="M:Ramda.NET.R.Into(System.Object,System.Object,Ramda.NET.RamdaPlaceholder)"/>
+            <see cref="M:Ramda.NET.R.Into(Ramda.NET.RamdaPlaceholder,System.Func{Ramda.NET.ITransformer,Ramda.NET.ITransformer},Ramda.NET.R.IReducible)"/>
         </member>
         <member name="M:Ramda.NET.R.Transduce``2(System.Object,System.Func{``1,Ramda.NET.ITransformer},``1,System.Collections.Generic.IList{``0})">
             <summary>
@@ -15273,7 +15273,7 @@
             <returns>The final, accumulated value.</returns>
             <see cref="M:Ramda.NET.R.Reduce(System.Object,Ramda.NET.RamdaPlaceholder,Ramda.NET.R.IReducible)"/>
             <see cref="M:Ramda.NET.R.Reduced(Ramda.NET.RamdaPlaceholder)"/>
-            <see cref="M:Ramda.NET.R.Into(System.Object,System.Object,Ramda.NET.RamdaPlaceholder)"/>
+            <see cref="M:Ramda.NET.R.Into(Ramda.NET.RamdaPlaceholder,System.Func{Ramda.NET.ITransformer,Ramda.NET.ITransformer},Ramda.NET.R.IReducible)"/>
         </member>
         <member name="M:Ramda.NET.R.Transduce``2(System.Func{Ramda.NET.ITransformer,Ramda.NET.ITransformer},System.Object,``1,System.Collections.Generic.IList{``0})">
             <summary>
@@ -15288,7 +15288,7 @@
             <returns>The final, accumulated value.</returns>
             <see cref="M:Ramda.NET.R.Reduce(System.Object,Ramda.NET.RamdaPlaceholder,Ramda.NET.R.IReducible)"/>
             <see cref="M:Ramda.NET.R.Reduced(Ramda.NET.RamdaPlaceholder)"/>
-            <see cref="M:Ramda.NET.R.Into(System.Object,System.Object,Ramda.NET.RamdaPlaceholder)"/>
+            <see cref="M:Ramda.NET.R.Into(Ramda.NET.RamdaPlaceholder,System.Func{Ramda.NET.ITransformer,Ramda.NET.ITransformer},Ramda.NET.R.IReducible)"/>
         </member>
         <member name="M:Ramda.NET.R.Transduce``2(System.Object,System.Object,``1,System.Collections.Generic.IList{``0})">
             <summary>
@@ -15303,7 +15303,7 @@
             <returns>The final, accumulated value.</returns>
             <see cref="M:Ramda.NET.R.Reduce(System.Object,Ramda.NET.RamdaPlaceholder,Ramda.NET.R.IReducible)"/>
             <see cref="M:Ramda.NET.R.Reduced(Ramda.NET.RamdaPlaceholder)"/>
-            <see cref="M:Ramda.NET.R.Into(System.Object,System.Object,Ramda.NET.RamdaPlaceholder)"/>
+            <see cref="M:Ramda.NET.R.Into(Ramda.NET.RamdaPlaceholder,System.Func{Ramda.NET.ITransformer,Ramda.NET.ITransformer},Ramda.NET.R.IReducible)"/>
         </member>
         <member name="M:Ramda.NET.R.Transduce(Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder,Ramda.NET.RamdaPlaceholder)">
             <summary>
@@ -15318,7 +15318,7 @@
             <returns>The final, accumulated value.</returns>
             <see cref="M:Ramda.NET.R.Reduce(System.Object,Ramda.NET.RamdaPlaceholder,Ramda.NET.R.IReducible)"/>
             <see cref="M:Ramda.NET.R.Reduced(Ramda.NET.RamdaPlaceholder)"/>
-            <see cref="M:Ramda.NET.R.Into(System.Object,System.Object,Ramda.NET.RamdaPlaceholder)"/>
+            <see cref="M:Ramda.NET.R.Into(Ramda.NET.RamdaPlaceholder,System.Func{Ramda.NET.ITransformer,Ramda.NET.ITransformer},Ramda.NET.R.IReducible)"/>
         </member>
         <member name="M:Ramda.NET.R.Transpose``1(``0[][])">
             <summary>
@@ -16056,7 +16056,7 @@
             <param name="list">first</param>
             <returns>*</returns>
             <see cref="M:Ramda.NET.R.Flatten(System.Collections.IDictionary)"/>
-            <see cref="M:Ramda.NET.R.Chain(System.Delegate,Ramda.NET.RamdaPlaceholder)"/>
+            <see cref="M:Ramda.NET.R.Chain(System.Delegate,System.Delegate)"/>
         </member>
         <member name="M:Ramda.NET.R.Unnest(Ramda.NET.RamdaPlaceholder)">
             <summary>
@@ -16067,7 +16067,7 @@
             <param name="list">first</param>
             <returns>*</returns>
             <see cref="M:Ramda.NET.R.Flatten(System.Collections.IDictionary)"/>
-            <see cref="M:Ramda.NET.R.Chain(System.Delegate,Ramda.NET.RamdaPlaceholder)"/>
+            <see cref="M:Ramda.NET.R.Chain(System.Delegate,System.Delegate)"/>
         </member>
         <member name="M:Ramda.NET.R.Until``2(System.Func{``0,System.Boolean},System.Func{``0,``1},``0)">
             <summary>
